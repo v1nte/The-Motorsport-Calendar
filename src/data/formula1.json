@@ -1,0 +1,69 @@
+[
+  {
+    "commonName": "Australian GP",
+    "officialName": "Formula 1 Australian Grand Prix 2025",
+    "location": "Melbourne, Australia",
+    "dates": {
+      "practices": [
+        "2025-03-14",
+        "2025-03-14",
+        "2025-03-15"
+      ],
+      "qualys": [
+        "2025-03-15"
+      ],
+      "mainEvent": "2025-03-16"
+    },
+    "circuit": "Albert Park Circuit"
+  },
+  {
+    "commonName": "Chinese GP",
+    "officialName": "Formula 1 Heineken Chinese Grand Prix 2025",
+    "location": "Shanghai, China",
+    "dates": {
+      "practices": [
+        "2025-03-21"
+      ],
+      "qualys": [
+        "2025-03-21",
+        "2025-03-22"
+      ],
+      "mainEvent": "2025-03-23"
+    },
+    "circuit": "Shanghai International Circuit"
+  },
+  {
+    "commonName": "Japanese GP",
+    "officialName": "Formula 1 Lenovo Japanese Grand Prix 2025",
+    "location": "Suzuka, Japan",
+    "dates": {
+      "practices": [
+        "2025-04-04",
+        "2025-04-04",
+        "2025-04-05"
+      ],
+      "qualys": [
+        "2025-04-05"
+      ],
+      "mainEvent": "2025-04-06"
+    },
+    "circuit": "Suzuka Circuit"
+  },
+  {
+    "commonName": "Bahrain GP",
+    "officialName": "Formula 1 Bahrain Grand Prix 2025",
+    "location": "Bahrain",
+    "dates": {
+      "practices": [
+        "2025-04-11",
+        "2025-04-11",
+        "2025-04-12"
+      ],
+      "qualys": [
+        "2025-04-12"
+      ],
+      "mainEvent": "2025-04-13"
+    },
+    "circuit": "Bahrain International Circuit"
+  }
+]
