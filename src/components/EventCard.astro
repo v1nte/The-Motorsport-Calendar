@@ -1,0 +1,44 @@
+---
+const { name, fullName, circuit, dates } = Astro.props;
+
+const { mainEvent } = dates;
+
+const mainEventDate = new Date(mainEvent);
+
+const monthName = mainEventDate.toLocaleString("en-US", { month: "short" });
+const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
+---
+
+<div class="rounded overflow-hidden shadow-lg h-full">
+  <a href="#"></a>
+  <div class="relative hover:cursor-pointer">
+    <img
+      class="w-full"
+      src="https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      alt="Sunset in the mountains"
+    />
+    <div
+      class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"
+    >
+    </div>
+    <div
+      class="text-sm absolute top-0 right-0 bg-indigo-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out"
+    >
+      <span class="font-bold">{day}</span>
+      <small>{monthName}</small>
+    </div>
+  </div>
+  <div class="px-6 py-4">
+    <a
+      href="#"
+      class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out"
+      >{name}</a
+    >
+    <p class="text-gray-500 text-sm">
+      {fullName}
+    </p>
+  </div>
+  <div class="px-6 py-4 flex flex-row items-center">
+    <p>{circuit}</p>
+  </div>
+</div>
