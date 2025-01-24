@@ -185,23 +185,6 @@
     "circuit": "Redbull Ring"
   },
   {
-    "commonName": "Austrian GP",
-    "officialName": "Formula 1 MSC Cruises Austrian Grand Prix 2025",
-    "location": "Spielberg, Austria",
-    "dates": {
-      "practices": [
-        "2025-06-27",
-        "2025-06-27",
-        "2025-06-28"
-      ],
-      "qualys": [
-        "2025-06-28"
-      ],
-      "mainEvent": "2025-06-29"
-    },
-    "circuit": "Redbull Ring"
-  },
-  {
     "commonName": "British GP",
     "officialName": "Formula 1 Qatar Airways British Grand Prix 2025",
     "location": "Silverstone, UK",
