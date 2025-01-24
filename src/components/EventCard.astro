@@ -1,4 +1,7 @@
 ---
+import { Image } from "astro:assets";
+import f1Logo from "../assets/f1-logo.webp";
+
 const { name, fullName, circuit, dates } = Astro.props;
 
 const { mainEvent } = dates;
@@ -12,11 +15,7 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
 <div class="rounded overflow-hidden shadow-lg h-full">
   <a href="#"></a>
   <div class="relative hover:cursor-pointer">
-    <img
-      class="w-full"
-      src="https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-      alt="Sunset in the mountains"
-    />
+    <Image class="w-full" src={f1Logo} alt="F1 logo" />
     <div
       class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"
     >
