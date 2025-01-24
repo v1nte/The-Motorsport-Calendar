@@ -1,8 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import EventCard from "../components/EventCard.astro";
+import Divider from "../components/Divider.astro";
 
 import f1events from "../data/formula1.json";
+
+let lastMonth = null;
 ---
 
 <Layout>
@@ -10,14 +13,30 @@ import f1events from "../data/formula1.json";
     class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 md:mx-32 lg:grid-cols-5 p-4 gap-8 place-items-center"
   >
     {
-      f1events.map((event) => (
-        <EventCard
-          name={event.commonName}
-          circuit={event.circuit}
-          fullName={event.officialName}
-          dates={event.dates}
-        />
-      ))
+      f1events.map((event, index) => {
+        const eventMonth = new Date(event.dates.mainEvent).getMonth();
+
+        const isNewMonth = eventMonth !== lastMonth;
+        const isFirstMonth = index === 0;
+
+        if (isNewMonth && !isFirstMonth) {
+          lastMonth = eventMonth;
+          return (
+            <div class="col-span-full">
+              <Divider />
+            </div>
+          );
+        }
+
+        return (
+          <EventCard
+            name={event.commonName}
+            circuit={event.circuit}
+            fullName={event.officialName}
+            dates={event.dates}
+          />
+        );
+      })
     }
   </main>
 </Layout>
