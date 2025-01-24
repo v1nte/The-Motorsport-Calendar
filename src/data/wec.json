@@ -1,0 +1,74 @@
+[
+  {
+    "commonName": "Qatar",
+    "officialName": "Qatar 1812Km",
+    "location": "Doha, Qatar",
+    "dates": {
+      "mainEvent": "2025-02-28"
+    },
+    "circuit": "Lusail International Circuit"
+  },
+  {
+    "commonName": "Italy",
+    "officialName": "6 Hours of Imola",
+    "location": "Imola, Italy",
+    "dates": {
+      "mainEvent": "2025-4-20"
+    },
+    "circuit": "Autodromo Enzo e Dino Ferrari"
+  },
+  {
+    "commonName": "Belgium",
+    "officialName": "TOTALENERGIES 6 Hours of Spa-Franchorchamps",
+    "location": "Lieja, Belgium",
+    "dates": {
+      "mainEvent": "2025-05-10"
+    },
+    "circuit": "Circuit de Spa-Franchorchamps"
+  },
+  {
+    "commonName": "France",
+    "officialName": "24 Hours of Le Mans",
+    "location": "Le Mans, France",
+    "dates": {
+      "mainEvent": "2025-06-14"
+    },
+    "circuit": "Circuit de la Sarthe"
+  },
+  {
+    "commonName": "Brazil",
+    "officialName": "Rolex 6 Hours of Sao Paulo",
+    "location": "Sao Paulo, Brazil",
+    "dates": {
+      "mainEvent": "2025-07-13"
+    },
+    "circuit": "Autódromo José Carlos Pache"
+  },
+  {
+    "commonName": "USA",
+    "officialName": "Lone Star Le Mans",
+    "location": "Austin, USA",
+    "dates": {
+      "mainEvent": "2025-09-07"
+    },
+    "circuit": "Circuit of the Americas"
+  },
+  {
+    "commonName": "Japan",
+    "officialName": "6 Hours of Fuji",
+    "location": "Shizouka, Japan",
+    "dates": {
+      "mainEvent": "2025-09-28"
+    },
+    "circuit": "Fuji Speedway"
+  },
+  {
+    "commonName": "Bahrain",
+    "officialName": "Bapco Energies 8 Hours of Bahrain",
+    "location": "Bahrain",
+    "dates": {
+      "mainEvent": "2025-11-08"
+    },
+    "circuit": "Bahrain International Circuit"
+  }
+]
