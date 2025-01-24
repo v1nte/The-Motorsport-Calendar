@@ -4,8 +4,18 @@ import EventCard from "../components/EventCard.astro";
 import Divider from "../components/Divider.astro";
 
 import f1events from "../data/formula1.json";
+import wecevents from "../data/wec.json";
 
-let lastMonth = null;
+const events = [...f1events, ...wecevents];
+
+events.sort((a, b) => {
+  const dateA = new Date(a.dates.mainEvent);
+  const dateB = new Date(b.dates.mainEvent);
+
+  return dateA - dateB;
+});
+
+let lastMonth = new Date("2025-01-01").getMonth();
 ---
 
 <Layout>
@@ -13,7 +23,7 @@ let lastMonth = null;
     class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 md:mx-32 lg:grid-cols-5 p-4 gap-8 place-items-center"
   >
     {
-      f1events.map((event, index) => {
+      events.map((event, index) => {
         const eventMonth = new Date(event.dates.mainEvent).getMonth();
 
         const isNewMonth = eventMonth !== lastMonth;
@@ -22,9 +32,11 @@ let lastMonth = null;
         if (isNewMonth && !isFirstMonth) {
           lastMonth = eventMonth;
           return (
-            <div class="col-span-full">
-              <Divider />
-            </div>
+            <>
+              <div class="col-span-full">
+                <Divider />
+              </div>
+            </>
           );
         }
 
