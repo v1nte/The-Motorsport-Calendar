@@ -14,7 +14,8 @@
       ],
       "mainEvent": "2025-03-16"
     },
-    "circuit": "Albert Park Circuit"
+    "circuit": "Albert Park Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "Chinese GP",
@@ -30,7 +31,8 @@
       ],
       "mainEvent": "2025-03-23"
     },
-    "circuit": "Shanghai International Circuit"
+    "circuit": "Shanghai International Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "Japanese GP",
@@ -47,7 +49,8 @@
       ],
       "mainEvent": "2025-04-06"
     },
-    "circuit": "Suzuka Circuit"
+    "circuit": "Suzuka Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "Bahrain GP",
@@ -64,7 +67,8 @@
       ],
       "mainEvent": "2025-04-13"
     },
-    "circuit": "Bahrain International Circuit"
+    "circuit": "Bahrain International Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "Saudi Arabian GP",
@@ -81,7 +85,8 @@
       ],
       "mainEvent": "2025-04-20"
     },
-    "circuit": "Jeddah Corniche Circuit"
+    "circuit": "Jeddah Corniche Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "Miami GP",
@@ -97,7 +102,8 @@
       ],
       "mainEvent": "2025-05-04"
     },
-    "circuit": "Miami International Autodrome"
+    "circuit": "Miami International Autodrome",
+    "logo": "f1"
   },
   {
     "commonName": "Imola GP",
@@ -114,7 +120,8 @@
       ],
       "mainEvent": "2025-05-18"
     },
-    "circuit": "Autodrome Internazionale Enzo e Dino Ferrari"
+    "circuit": "Autodrome Internazionale Enzo e Dino Ferrari",
+    "logo": "f1"
   },
   {
     "commonName": "Monaco GP",
@@ -131,7 +138,8 @@
       ],
       "mainEvent": "2025-05-25"
     },
-    "circuit": "Circuit de Monaco"
+    "circuit": "Circuit de Monaco",
+    "logo": "f1"
   },
   {
     "commonName": "Spanish GP",
@@ -148,7 +156,8 @@
       ],
       "mainEvent": "2025-06-01"
     },
-    "circuit": "Circuit de Barcelona-Catalunya"
+    "circuit": "Circuit de Barcelona-Catalunya",
+    "logo": "f1"
   },
   {
     "commonName": "Canadian GP",
@@ -165,7 +174,8 @@
       ],
       "mainEvent": "2025-06-15"
     },
-    "circuit": "Circuit Guilles-Villeneuve"
+    "circuit": "Circuit Guilles-Villeneuve",
+    "logo": "f1"
   },
   {
     "commonName": "Austrian GP",
@@ -182,7 +192,8 @@
       ],
       "mainEvent": "2025-06-29"
     },
-    "circuit": "Redbull Ring"
+    "circuit": "Redbull Ring",
+    "logo": "f1"
   },
   {
     "commonName": "British GP",
@@ -199,7 +210,8 @@
       ],
       "mainEvent": "2025-07-06"
     },
-    "circuit": "Silverstone Circuit"
+    "circuit": "Silverstone Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "Belgium GP",
@@ -216,7 +228,8 @@
       ],
       "mainEvent": "2025-07-27"
     },
-    "circuit": "Circuit de Spa-Francorchamps"
+    "circuit": "Circuit de Spa-Francorchamps",
+    "logo": "f1"
   },
   {
     "commonName": "Hungarian GP",
@@ -233,7 +246,8 @@
       ],
       "mainEvent": "2025-08-03"
     },
-    "circuit": "Hungaroring"
+    "circuit": "Hungaroring",
+    "logo": "f1"
   },
   {
     "commonName": "Dutch GP",
@@ -250,7 +264,8 @@
       ],
       "mainEvent": "2025-08-31"
     },
-    "circuit": "Circuit Zandvoort"
+    "circuit": "Circuit Zandvoort",
+    "logo": "f1"
   },
   {
     "commonName": "Italian GP",
@@ -267,7 +282,8 @@
       ],
       "mainEvent": "2025-09-07"
     },
-    "circuit": "Autodromo Nazionale Monza"
+    "circuit": "Autodromo Nazionale Monza",
+    "logo": "f1"
   },
   {
     "commonName": "Azerbaijan GP",
@@ -284,7 +300,8 @@
       ],
       "mainEvent": "2025-09-21"
     },
-    "circuit": "Baku City Circuit"
+    "circuit": "Baku City Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "Singapore GP",
@@ -301,7 +318,8 @@
       ],
       "mainEvent": "2025-10-05"
     },
-    "circuit": "Marina Bay Street Circuit"
+    "circuit": "Marina Bay Street Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "US GP",
@@ -318,7 +336,8 @@
       ],
       "mainEvent": "2025-10-19"
     },
-    "circuit": "Circuit of the Americas"
+    "circuit": "Circuit of the Americas",
+    "logo": "f1"
   },
   {
     "commonName": "Mexican GP",
@@ -335,7 +354,8 @@
       ],
       "mainEvent": "2025-10-26"
     },
-    "circuit": "Autódromo Hermanos Rodríguez"
+    "circuit": "Autódromo Hermanos Rodríguez",
+    "logo": "f1"
   },
   {
     "commonName": "Brazilian GP",
@@ -352,7 +372,8 @@
       ],
       "mainEvent": "2025-11-09"
     },
-    "circuit": "Autódromo José Carlos Pace"
+    "circuit": "Autódromo José Carlos Pace",
+    "logo": "f1"
   },
   {
     "commonName": "Las Vegas GP",
@@ -369,7 +390,8 @@
       ],
       "mainEvent": "2025-11-22"
     },
-    "circuit": "Las Vegas Strip Circuit"
+    "circuit": "Las Vegas Strip Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "Qatar GP",
@@ -386,7 +408,8 @@
       ],
       "mainEvent": "2025-11-30"
     },
-    "circuit": "Lusail International Circuit"
+    "circuit": "Lusail International Circuit",
+    "logo": "f1"
   },
   {
     "commonName": "Abu Dhabi GP",
@@ -403,6 +426,7 @@
       ],
       "mainEvent": "2025-12-07"
     },
-    "circuit": "Yas Marina Circuit"
+    "circuit": "Yas Marina Circuit",
+    "logo": "f1"
   }
 ]

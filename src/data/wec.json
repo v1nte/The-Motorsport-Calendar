@@ -6,7 +6,8 @@
     "dates": {
       "mainEvent": "2025-02-28"
     },
-    "circuit": "Lusail International Circuit"
+    "circuit": "Lusail International Circuit",
+    "logo": "wec"
   },
   {
     "commonName": "Italy",
@@ -15,7 +16,8 @@
     "dates": {
       "mainEvent": "2025-4-20"
     },
-    "circuit": "Autodromo Enzo e Dino Ferrari"
+    "circuit": "Autodromo Enzo e Dino Ferrari",
+    "logo": "wec"
   },
   {
     "commonName": "Belgium",
@@ -24,7 +26,8 @@
     "dates": {
       "mainEvent": "2025-05-10"
     },
-    "circuit": "Circuit de Spa-Franchorchamps"
+    "circuit": "Circuit de Spa-Franchorchamps",
+    "logo": "wec"
   },
   {
     "commonName": "France",
@@ -33,7 +36,8 @@
     "dates": {
       "mainEvent": "2025-06-14"
     },
-    "circuit": "Circuit de la Sarthe"
+    "circuit": "Circuit de la Sarthe",
+    "logo": "lemans"
   },
   {
     "commonName": "Brazil",
@@ -42,7 +46,8 @@
     "dates": {
       "mainEvent": "2025-07-13"
     },
-    "circuit": "Autódromo José Carlos Pache"
+    "circuit": "Autódromo José Carlos Pache",
+    "logo": "wec"
   },
   {
     "commonName": "USA",
@@ -51,7 +56,8 @@
     "dates": {
       "mainEvent": "2025-09-07"
     },
-    "circuit": "Circuit of the Americas"
+    "circuit": "Circuit of the Americas",
+    "logo": "wec"
   },
   {
     "commonName": "Japan",
@@ -60,7 +66,8 @@
     "dates": {
       "mainEvent": "2025-09-28"
     },
-    "circuit": "Fuji Speedway"
+    "circuit": "Fuji Speedway",
+    "logo": "wec"
   },
   {
     "commonName": "Bahrain",
@@ -69,6 +76,7 @@
     "dates": {
       "mainEvent": "2025-11-08"
     },
-    "circuit": "Bahrain International Circuit"
+    "circuit": "Bahrain International Circuit",
+    "logo": "wec"
   }
 ]
