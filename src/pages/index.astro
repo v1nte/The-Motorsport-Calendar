@@ -34,6 +34,13 @@ let lastMonth = new Date("2025-01-01").getMonth();
               <div class="col-span-full">
                 <Divider />
               </div>
+              <EventCard
+                name={event.commonName}
+                circuit={event.circuit}
+                fullName={event.officialName}
+                dates={event.dates}
+                logo={event.logo}
+              />
             </>
           );
         }
