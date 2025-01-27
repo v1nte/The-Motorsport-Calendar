@@ -10,10 +10,7 @@ import imsaevents from "../data/imsa.json";
 const events = [...f1events, ...wecevents, ...imsaevents];
 
 events.sort((a, b) => {
-  const dateA = new Date(a.dates.mainEvent);
-  const dateB = new Date(b.dates.mainEvent);
-
-  return dateA - dateB;
+  return new Date(a.dates.mainEvent) - new Date(b.dates.mainEvent);
 });
 
 let lastMonth = new Date("2025-01-01").getMonth();
