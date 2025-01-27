@@ -1,12 +1,13 @@
 ---
 import { Image } from "astro:assets";
-import f1Logo from "../assets/f1-logo.webp";
 
-const { name, fullName, circuit, dates } = Astro.props;
+const { name, fullName, circuit, dates, logo } = Astro.props;
 
 const { mainEvent } = dates;
 
 const mainEventDate = new Date(mainEvent);
+
+const imagePath = `/logos/${logo}.webp`;
 
 const monthName = mainEventDate.toLocaleString("en-US", { month: "short" });
 const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
@@ -15,7 +16,14 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
 <div class="rounded overflow-hidden shadow-lg h-full">
   <a href="#"></a>
   <div class="relative hover:cursor-pointer">
-    <Image class="w-full" src={f1Logo} alt="F1 logo" />
+    <Image
+      class="w-full"
+      src={imagePath}
+      alt={`${logo} logo`}
+      width={400}
+      height={400}
+      inferSize={true}
+    />
     <div
       class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"
     >
