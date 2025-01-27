@@ -5,8 +5,9 @@ import Divider from "../components/Divider.astro";
 
 import f1events from "../data/formula1.json";
 import wecevents from "../data/wec.json";
+import imsaevents from "../data/imsa.json";
 
-const events = [...f1events, ...wecevents];
+const events = [...f1events, ...wecevents, ...imsaevents];
 
 events.sort((a, b) => {
   const dateA = new Date(a.dates.mainEvent);
