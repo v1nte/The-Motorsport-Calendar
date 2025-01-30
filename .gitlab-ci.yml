@@ -3,7 +3,7 @@ pages:
   image: node:lts
 
   before_script:
-    - npm ci
+    - npm install
 
   script:
     # Specify the steps involved to build your app here
