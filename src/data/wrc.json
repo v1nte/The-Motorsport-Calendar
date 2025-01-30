@@ -1,0 +1,142 @@
+[
+  {
+    "commonName": "Monte-Carlo",
+    "officialName": "Rallye Monte-Carlo",
+    "location": "Montecarlo, Monaco",
+    "dates": {
+      "mainEvent": "2025-01-26"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Sweden",
+    "officialName": "WRC Rally Sweden",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-02-16"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Kenya",
+    "officialName": "WRC Safari Rally Kenya",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-03-25"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Islas Canarias",
+    "officialName": "WRC Rally Islas Canarias",
+    "location": "Canary Islands, Spain",
+    "dates": {
+      "mainEvent": "2025-04-27"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Portugal",
+    "officialName": "WRC Vodafone Rally de Portugal",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-05-18"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Italia",
+    "officialName": "WRC Rally Italia Sardegna",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-06-08"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Greece",
+    "officialName": "WRC EKO Acropolis Rally Greece",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-06-29"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Estonia",
+    "officialName": "WRC Delfi Rally Estonia",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-07-20"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Findland",
+    "officialName": "WRC Secto Rally Findland",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-08-03"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Paraguay",
+    "officialName": "WRC Rally del Paraguay",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-08-31"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Chile",
+    "officialName": "WRC Rally Chile Biobio",
+    "location": "Bio-bio, Chile",
+    "dates": {
+      "mainEvent": "2025-09-14"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Europa",
+    "officialName": "WRC Central European Rally",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-10-19"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Japan",
+    "officialName": "WRC FORUM8 Rally Japan",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-11-09"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  },
+  {
+    "commonName": "Saudi Arabia",
+    "officialName": "WRC Rally Saudi Arabia",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-11-30"
+    },
+    "circuit": "",
+    "logo": "wrc"
+  }
+]
