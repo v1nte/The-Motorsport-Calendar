@@ -7,8 +7,8 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   site: 'https://v1nte.github.io',
   base: '/The-Motorsport-Calendar',
-  outDir: 'public',
-  publicDir: 'static',
+  // outDir: 'public',
+  // publicDir: 'static',
 
   integrations: [tailwind()]
 });
