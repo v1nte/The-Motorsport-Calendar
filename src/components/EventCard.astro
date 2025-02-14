@@ -7,8 +7,8 @@ const { mainEvent } = dates;
 
 const mainEventDate = new Date(mainEvent);
 
-//const imagePath = `/The-Motorsport-Calendar/logos/${logo}.webp`;
-const imageRawPath = `https://raw.githubusercontent.com/v1nte/The-Motorsport-Calendar/refs/heads/main/public/logos/${logo}.webp`;
+const imagePath = `/The-Motorsport-Calendar/logos/${logo}.webp`;
+//const imageRawPath = `https://raw.githubusercontent.com/v1nte/The-Motorsport-Calendar/refs/heads/main/public/logos/${logo}.webp`;
 
 const monthName = mainEventDate.toLocaleString("en-US", { month: "short" });
 const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
@@ -19,7 +19,7 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
   <div class="relative aspect-square hover:cursor-pointer">
     <Image
       class="w-full h-full object-contain"
-      src={imageRawPath}
+      src={imagePath}
       alt={`${logo} logo`}
       width={400}
       height={400}
