@@ -1,5 +1,6 @@
 ---
 import Header from "../components/Header.astro";
+import background from "../assets/background.svg";
 ---
 
 <!doctype html>
@@ -16,6 +17,7 @@ import Header from "../components/Header.astro";
     <title>The MotorSport Calendar</title>
   </head>
   <body>
+    <img id="background" src={background.src} alt="" fetchpriority="high" />
     <Header />
     <slot />
   </body>
@@ -27,5 +29,14 @@ import Header from "../components/Header.astro";
     margin: 0;
     width: 100%;
     height: 100%;
+  }
+  #background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(40px);
   }
 </style>
