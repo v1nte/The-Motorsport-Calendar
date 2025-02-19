@@ -1,0 +1,232 @@
+[
+  {
+    "commonName": "Thailand",
+    "officialName": "MotoGP Thailand",
+    "location": "Thailand",
+    "dates": {
+      "mainEvent": "2025-03-03"
+    },
+    "circuit": "Chang International Circuit",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Argentina",
+    "officialName": "MotoGP Argentina",
+    "location": "Argentina",
+    "dates": {
+      "mainEvent": "2025-03-16"
+    },
+    "circuit": "Termas de Río Hondo",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "USA",
+    "officialName": "MotoGP USA",
+    "location": "Texas, USA",
+    "dates": {
+      "mainEvent": "2025-03-30"
+    },
+    "circuit": "Circuit of the Americas",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Qatar",
+    "officialName": "MotoGP Qatar",
+    "location": "Lusail, Qatar",
+    "dates": {
+      "mainEvent": "2025-04-13"
+    },
+    "circuit": "Lusail international circuit",
+    "logo": "motgp"
+  },
+  {
+    "commonName": "Spain",
+    "officialName": "MotoGP Spain",
+    "location": "Jerez, Spain",
+    "dates": {
+      "mainEvent": "2025-04-27"
+    },
+    "circuit": "Circuito de Jerez - Ángel Nieto",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "France",
+    "officialName": "MotoGP France",
+    "location": "Le Mans, France",
+    "dates": {
+      "mainEvent": "2025-05-11"
+    },
+    "circuit": "Circuit de la Sarthe",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "United Kingdom",
+    "officialName": "MotoGP UK",
+    "location": "Silverstone, UK",
+    "dates": {
+      "mainEvent": "2025-05-25"
+    },
+    "circuit": "Silverstone Circuit",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Aragon",
+    "officialName": "MotoGP Aragon",
+    "location": "Alcañiz, Spain",
+    "dates": {
+      "mainEvent": "2025-06-08"
+    },
+    "circuit": "MotorLand Aragon",
+    "logo": "imsa"
+  },
+  {
+    "commonName": "Mugello",
+    "officialName": "MotoGP Italy",
+    "location": "Mugello, Italy",
+    "dates": {
+      "mainEvent": "2025-06-22"
+    },
+    "circuit": "Circuito internazionale del Mugello",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Netherlands",
+    "officialName": "MotoGP Netherlands",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-06-29"
+    },
+    "circuit": "TT Circuit Assen",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Germany",
+    "officialName": "MotoGP Germany",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-07-13"
+    },
+    "circuit": "Sachsenring",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Czechia",
+    "officialName": "MotoGP Czechia",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-07-20"
+    },
+    "circuit": "Automodrom BRNO",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Austria",
+    "officialName": "MotoGP Austria",
+    "location": "Spielberg, Austria",
+    "dates": {
+      "mainEvent": "2025-08-17"
+    },
+    "circuit": "Redbull Ring",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Hungary",
+    "officialName": "MotoGP Hungary",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-08-24"
+    },
+    "circuit": "Balaton Park Circuit",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Catalonia",
+    "officialName": "MotoGP Catalonia",
+    "location": "Barcelona, Spain",
+    "dates": {
+      "mainEvent": "2025-09-07"
+    },
+    "circuit": "Circuit de Barcelona-Catalunya",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "San Marino",
+    "officialName": "MotoGP San Marino",
+    "location": "San Marino",
+    "dates": {
+      "mainEvent": "2025-09-14"
+    },
+    "circuit": "Misano World Circuit Marco Simonelli",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Japan",
+    "officialName": "MotoGP Japan",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-09-28"
+    },
+    "circuit": "Mobility Resort Motegi",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Indonesia",
+    "officialName": "MotoGP Indonesia",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-10-05"
+    },
+    "circuit": "Pertamina Mandalika International Circuit",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Indonesia",
+    "officialName": "MotoGP Indonesia",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-10-05"
+    },
+    "circuit": "Pertamina Mandalika International Circuit",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Australia",
+    "officialName": "MotoGP Australia",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-10-19"
+    },
+    "circuit": "Philip Island",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Malaysia",
+    "officialName": "MotoGP Malaysia",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-10-26"
+    },
+    "circuit": "Sepan International Circuit",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Portugal",
+    "officialName": "MotoGP Portugal",
+    "location": "",
+    "dates": {
+      "mainEvent": "2025-11-09"
+    },
+    "circuit": "Autódromo internacional do Algarve",
+    "logo": "motogp"
+  },
+  {
+    "commonName": "Valencia",
+    "officialName": "MotoGP Valencia",
+    "location": "Valencia, Spain",
+    "dates": {
+      "mainEvent": "2025-11-16"
+    },
+    "circuit": "Circuit Ricardo Tormo",
+    "logo": "motogp"
+  }
+]
