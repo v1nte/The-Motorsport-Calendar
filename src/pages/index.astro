@@ -6,9 +6,16 @@ import f1events from "../data/formula1.json";
 import wecevents from "../data/wec.json";
 import imsaevents from "../data/imsa.json";
 import wrcevents from "../data/wrc.json";
+import motogpevents from "../data/motogp.json";
 import MonthCard from "../components/MonthCard.astro";
 
-const events = [...f1events, ...wecevents, ...imsaevents, ...wrcevents];
+const events = [
+  ...f1events,
+  ...wecevents,
+  ...imsaevents,
+  ...wrcevents,
+  ...motogpevents,
+];
 
 events.sort((a, b) => {
   return new Date(a.dates.mainEvent) - new Date(b.dates.mainEvent);
