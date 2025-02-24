@@ -1,7 +1,9 @@
 ---
 import { Image } from "astro:assets";
+import pinSvg from "../assets/pin.svg";
+import circuitSvg from "../assets/circuit.svg";
 
-const { name, fullName, circuit, dates, logo } = Astro.props;
+const { name, fullName, circuit, dates, logo, location } = Astro.props;
 
 const { mainEvent } = dates;
 
@@ -15,7 +17,7 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
 ---
 
 <div class="bg-white rounded w-full max-w-64 overflow-hidden shadow-lg h-full">
-  <div class="relative aspect-square hover:cursor-pointer">
+  <div class="relative aspect-square bg-gray-500/10">
     <Image
       class="w-full h-full object-contain"
       src={imagePath}
@@ -26,27 +28,34 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
       loading={"lazy"}
     />
     <div
-      class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"
-    >
-    </div>
-    <div
-      class="text-sm absolute top-0 right-0 bg-indigo-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out"
+      class="text-sm absolute top-0 right-0 bg-indigo-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3"
     >
       <span class="font-bold">{day}</span>
       <small>{monthName}</small>
     </div>
   </div>
+
   <div class="px-6 py-4">
-    <a
-      href="#"
-      class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out"
-      >{name}</a
-    >
+    <small class="font-semibold text-lg inline-block">{name}</small>
     <p class="text-gray-500 text-sm min-h-16 max-w-48">
       {fullName}
     </p>
   </div>
-  <div class="px-6 py-1 flex flex-row items-center">
-    <p>{circuit}</p>
-  </div>
+
+  {
+    circuit && (
+      <div class="px-6 py-1 flex">
+        <Image src={circuitSvg} alt="circuit svg" width="15" />
+        <p class="px-1 ">{circuit}</p>
+      </div>
+    )
+  }
+  {
+    location && (
+      <div class="px-5 flex text-gray-500">
+        <Image src={pinSvg} alt="pin svg" width="20" />
+        <p class="px-1">{location}</p>
+      </div>
+    )
+  }
 </div>
