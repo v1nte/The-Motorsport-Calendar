@@ -1,9 +1,17 @@
 ---
+import { Image } from "astro:assets";
 const { monthName } = Astro.props;
+
+import wheelSvg from "../assets/wheel.svg";
 ---
 
 <section class="flex flex-col">
-  <h1 class="font-semibold tracking-wide text-2xl mt-6">
-    {monthName}
-  </h1>
+  <div
+    class="flex justify-arround mt-6 px-6 py-2 bg-blue-200/70 shadow-md rounded-full"
+  >
+    <Image src={wheelSvg} alt="wheel svg icon" width={30} />
+    <h1 class="font-semibold pt-2 tracking-wide text-2xl">
+      {monthName}
+    </h1>
+  </div>
 </section>
