@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import background from "../assets/background.svg";
+import { ClientRouter } from "astro:transitions";
 ---
 
 <!doctype html>
@@ -15,6 +16,7 @@ import background from "../assets/background.svg";
     />
     <meta name="generator" content={Astro.generator} />
     <title>The MotorSport Calendar</title>
+    <ClientRouter />
   </head>
   <body>
     <img id="background" src={background.src} alt="" fetchpriority="high" />
