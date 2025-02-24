@@ -35,7 +35,7 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
     </div>
   </div>
 
-  <div class="px-6 py-4">
+  <div class="px-6 pt-2">
     <small class="font-semibold text-lg inline-block">{name}</small>
     <p class="text-gray-500 text-sm min-h-16 max-w-48">
       {fullName}
@@ -44,7 +44,7 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
 
   {
     circuit && (
-      <div class="px-6 py-1 flex">
+      <div class="px-6 py-1 flex items-start">
         <Image src={circuitSvg} alt="circuit svg" width="15" />
         <p class="px-1 ">{circuit}</p>
       </div>
@@ -52,7 +52,7 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
   }
   {
     location && (
-      <div class="px-5 flex text-gray-500">
+      <div class="px-5 flex items-start text-gray-500">
         <Image src={pinSvg} alt="pin svg" width="20" />
         <p class="px-1">{location}</p>
       </div>
