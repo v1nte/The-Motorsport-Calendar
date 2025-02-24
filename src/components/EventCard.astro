@@ -36,26 +36,28 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
   </div>
 
   <div class="px-6 pt-2">
-    <small class="font-semibold text-lg inline-block">{name}</small>
+    <h3 class="font-semibold text-2xl inline-block mb-1">{name}</h3>
     <p class="text-gray-500 text-sm min-h-16 max-w-48">
       {fullName}
     </p>
   </div>
 
-  {
-    circuit && (
-      <div class="px-6 py-1 flex items-start">
-        <Image src={circuitSvg} alt="circuit svg" width="16" loading={lazy} />
-        <p class="px-1 ">{circuit}</p>
-      </div>
-    )
-  }
-  {
-    location && (
-      <div class="px-5 flex items-start text-gray-500">
-        <Image src={pinSvg} alt="pin svg" width="20" loading={lazy} />
-        <p class="px-1">{location}</p>
-      </div>
-    )
-  }
+  <section class="flex flex-col justify-between">
+    {
+      circuit && (
+        <div class="px-6 py-1 flex items-start">
+          <Image src={circuitSvg} alt="circuit svg" width="16" loading={lazy} />
+          <p class="px-1 ">{circuit}</p>
+        </div>
+      )
+    }
+    {
+      location && (
+        <div class="px-5 flex items-start text-gray-500">
+          <Image src={pinSvg} alt="pin svg" width="20" loading={lazy} />
+          <p class="px-1 mb-4">{location}</p>
+        </div>
+      )
+    }
+  </section>
 </div>
