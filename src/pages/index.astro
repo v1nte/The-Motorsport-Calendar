@@ -39,13 +39,16 @@ let lastMonth = new Date("2025-01-01").getMonth();
         );
 
         const isNewMonth = eventMonth !== lastMonth;
+        <div class="flex col-span-full">
+          <MonthCard monthName={monthName} loading="eager" />
+        </div>;
 
         if (isNewMonth) {
           lastMonth = eventMonth;
           return (
             <>
               <div class="flex col-span-full">
-                <MonthCard monthName={monthName} />
+                <MonthCard monthName={monthName} loading="lazy" />
               </div>
               <EventCard
                 name={event.commonName}
@@ -54,6 +57,7 @@ let lastMonth = new Date("2025-01-01").getMonth();
                 dates={event.dates}
                 logo={event.logo}
                 location={event.location}
+                lazy={true}
               />
             </>
           );
@@ -67,6 +71,7 @@ let lastMonth = new Date("2025-01-01").getMonth();
             dates={event.dates}
             logo={event.logo}
             location={event.location}
+            lazy={false}
           />
         );
       })
