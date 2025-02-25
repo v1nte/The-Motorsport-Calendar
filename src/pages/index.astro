@@ -1,26 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import EventCard from "../components/EventCard.astro";
-
-import f1events from "../data/formula1.json";
-import wecevents from "../data/wec.json";
-import imsaevents from "../data/imsa.json";
-import wrcevents from "../data/wrc.json";
-import motogpevents from "../data/motogp.json";
 import MonthCard from "../components/MonthCard.astro";
+import { getSortedEvents } from "../utils/events.ts";
 
-const events = [
-  ...f1events,
-  ...wecevents,
-  ...imsaevents,
-  ...wrcevents,
-  ...motogpevents,
-];
-
-events.sort((a, b) => {
-  return new Date(a.dates.mainEvent) - new Date(b.dates.mainEvent);
-});
-
+const events = getSortedEvents();
 let lastMonth = new Date("2025-01-01").getMonth();
 ---
 
