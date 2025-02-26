@@ -5,7 +5,7 @@ const { monthName, loading } = Astro.props;
 import wheelSvg from "../assets/wheel.svg";
 ---
 
-<section class="flex mt-6 px-6 py-2 bg-blue-200/70 shadow-md rounded-full">
+<section class="flex mt-6 px-12 py-2 sm:px-48 bg-white shadow-md rounded-full">
   <Image src={wheelSvg} alt="wheel svg icon" width={30} loading={loading} />
   <h1 class="font-semibold tracking-wide text-2xl">
     {monthName}
