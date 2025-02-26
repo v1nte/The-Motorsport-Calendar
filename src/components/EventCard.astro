@@ -17,6 +17,11 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
 ---
 
 <div class="bg-white rounded w-full max-w-64 overflow-hidden shadow-lg h-full">
+  <div class="flex flex-col items-center bg-zinc-800 text-white">
+    <p class="text-lg font-semibold m-1">
+      {monthName} - {day}
+    </p>
+  </div>
   <div class="relative aspect-square bg-gray-500/10">
     <Image
       class="w-full h-full object-contain"
@@ -27,16 +32,10 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
       inferSize={true}
       loading={lazy}
     />
-    <div
-      class="text-sm absolute top-0 right-0 bg-indigo-600 px-4 text-white rounded-full h-16 w-16 flex flex-col items-center justify-center mt-3 mr-3"
-    >
-      <span class="font-bold">{day}</span>
-      <small>{monthName}</small>
-    </div>
   </div>
 
   <div class="px-6 pt-2">
-    <h3 class="font-semibold text-2xl inline-block mb-1">{name}</h3>
+    <h3 class="font-bold text-2xl inline-block mb-1">{name}</h3>
     <p class="text-gray-500 text-sm min-h-16 max-w-48">
       {fullName}
     </p>
