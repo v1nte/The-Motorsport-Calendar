@@ -18,12 +18,14 @@ let lastMonth = -1;
         const { month, monthName } = getMonthDetails(event.dates.mainEvent);
 
         const isNewMonth = month !== lastMonth;
+        const loadingType = month === 0 || month === 1 ? "eager" : "lazy";
         if (isNewMonth) {
           lastMonth = month;
+
           return (
             <>
               <div class="flex col-span-full">
-                <MonthCard monthName={monthName} loading="lazy" />
+                <MonthCard monthName={monthName} loading={loadingType} />
               </div>
 
               <EventCard
@@ -33,7 +35,7 @@ let lastMonth = -1;
                 dates={event.dates}
                 logo={event.logo}
                 location={event.location}
-                lazy={true}
+                loading={loadingType}
               />
             </>
           );
@@ -47,7 +49,7 @@ let lastMonth = -1;
             dates={event.dates}
             logo={event.logo}
             location={event.location}
-            lazy={false}
+            loading={loadingType}
           />
         );
       })

@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 import pinSvg from "../assets/pin.svg";
 import circuitSvg from "../assets/circuit.svg";
 
-const { name, fullName, circuit, dates, logo, location, lazy } = Astro.props;
+const { name, fullName, circuit, dates, logo, location, loading } = Astro.props;
 
 const { mainEvent } = dates;
 
@@ -30,7 +30,7 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
       width={400}
       height={400}
       inferSize={true}
-      loading={lazy}
+      loading={loading}
     />
   </div>
 
@@ -45,7 +45,12 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
     {
       circuit && (
         <div class="px-6 py-1 flex items-start">
-          <Image src={circuitSvg} alt="circuit svg" width="16" loading={lazy} />
+          <Image
+            src={circuitSvg}
+            alt="circuit svg"
+            width="16"
+            loading={loading}
+          />
           <p class="px-1 ">{circuit}</p>
         </div>
       )
@@ -53,7 +58,7 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
     {
       location && (
         <div class="px-5 flex items-start text-gray-500">
-          <Image src={pinSvg} alt="pin svg" width="20" loading={lazy} />
+          <Image src={pinSvg} alt="pin svg" width="20" loading={loading} />
           <p class="px-1 mb-4">{location}</p>
         </div>
       )
