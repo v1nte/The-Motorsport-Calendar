@@ -3,9 +3,10 @@ import Layout from "../layouts/Layout.astro";
 import EventCard from "../components/EventCard.astro";
 import MonthCard from "../components/MonthCard.astro";
 import { getSortedEvents } from "../utils/events.ts";
+import { getMonthDetails } from "../utils/months.ts";
 
 const events = getSortedEvents();
-let lastMonth = new Date("2025-01-01").getMonth();
+let lastMonth = -1;
 ---
 
 <Layout>
@@ -14,26 +15,17 @@ let lastMonth = new Date("2025-01-01").getMonth();
   >
     {
       events.map((event) => {
-        const eventMonth = new Date(event.dates.mainEvent).getMonth();
-        const monthName = new Date(event.dates.mainEvent).toLocaleString(
-          "en-US",
-          {
-            month: "long",
-          },
-        );
+        const { month, monthName } = getMonthDetails(event.dates.mainEvent);
 
-        const isNewMonth = eventMonth !== lastMonth;
-        <div class="flex col-span-full">
-          <MonthCard monthName={monthName} loading="eager" />
-        </div>;
-
+        const isNewMonth = month !== lastMonth;
         if (isNewMonth) {
-          lastMonth = eventMonth;
+          lastMonth = month;
           return (
             <>
               <div class="flex col-span-full">
                 <MonthCard monthName={monthName} loading="lazy" />
               </div>
+
               <EventCard
                 name={event.commonName}
                 circuit={event.circuit}
