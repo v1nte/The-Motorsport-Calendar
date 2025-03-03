@@ -8,19 +8,31 @@ const { name, fullName, circuit, dates, logo, location, loading } = Astro.props;
 const { mainEvent } = dates;
 
 const mainEventDate = new Date(mainEvent);
+const today = new Date();
+
+const diffInMillis = mainEventDate - today; //
+const diffInDays = Math.floor(diffInMillis / (1000 * 60 * 60 * 24));
 
 const imagePath = `/The-Motorsport-Calendar/logos/${logo}.webp`;
-//const imageRawPath = `https://raw.githubusercontent.com/v1nte/The-Motorsport-Calendar/refs/heads/main/public/logos/${logo}.webp`;
 
 const monthName = mainEventDate.toLocaleString("en-US", { month: "short" });
 const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
 ---
 
 <div class="bg-white rounded w-full max-w-64 overflow-hidden shadow-lg h-full">
-  <div class="flex flex-col items-center bg-zinc-800 text-white">
+  <div class="flex items-center justify-around bg-zinc-800 text-white">
     <p class="text-lg font-semibold m-1">
-      {monthName} - {day}
+      {monthName}
+      {day}
     </p>
+    <p>-</p>
+    {
+      diffInDays > 0 ? ( // aka: to be raced
+        <p class="text-lg font-semibold m-1"> In {diffInDays}d </p>
+      ) : (
+        <p class="text-lg font-semibold m-1">Finished</p>
+      )
+    }
   </div>
   <div class="relative aspect-square bg-gray-500/10">
     <Image
