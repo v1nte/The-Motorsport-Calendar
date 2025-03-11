@@ -14,6 +14,9 @@ importers:
       astro:
         specifier: ^5.1.8
         version: 5.1.8(jiti@1.21.7)(rollup@4.31.0)(typescript@5.7.3)(yaml@2.7.0)
+      calendar-link:
+        specifier: ^2.8.0
+        version: 2.8.0
       sharp:
         specifier: ^0.33.5
         version: 0.33.5
@@ -617,6 +620,9 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
+  calendar-link@2.8.0:
+    resolution: {integrity: sha512-N1mXUpoMc2czw30LxPHKNSGuekwXeZ2AHlQVfpY/6aBkFEbDpO9c8suM/NIJ9eSVLu0HaCgmAq0MeXZDgva/nw==}
+
   camelcase-css@2.0.1:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
@@ -706,6 +712,9 @@ packages:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
     hasBin: true
+
+  dayjs@1.11.13:
+    resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
 
   debug@4.4.0:
     resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
@@ -2395,6 +2404,10 @@ snapshots:
       node-releases: 2.0.19
       update-browserslist-db: 1.1.2(browserslist@4.24.4)
 
+  calendar-link@2.8.0:
+    dependencies:
+      dayjs: 1.11.13
+
   camelcase-css@2.0.1: {}
 
   camelcase@8.0.0: {}
@@ -2468,6 +2481,8 @@ snapshots:
       uncrypto: 0.1.3
 
   cssesc@3.0.0: {}
+
+  dayjs@1.11.13: {}
 
   debug@4.4.0:
     dependencies:
