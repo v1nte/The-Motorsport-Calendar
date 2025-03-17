@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import pinSvg from "../assets/pin.svg";
 import circuitSvg from "../assets/circuit.svg";
+import CalendarLink from "./CalendarLink.astro";
 
 const { name, fullName, circuit, dates, logo, location, loading } = Astro.props;
 
@@ -25,7 +26,7 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
       {monthName}
       {day}
     </p>
-    <p>-</p>
+    <CalendarLink title={name} date={mainEvent} />
     {
       diffInDays > 0 ? ( // aka: to be raced
         <p class="text-lg font-semibold m-1"> In {diffInDays}d </p>
