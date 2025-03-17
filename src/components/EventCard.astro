@@ -20,7 +20,10 @@ const monthName = mainEventDate.toLocaleString("en-US", { month: "short" });
 const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
 ---
 
-<div class="bg-white rounded w-full max-w-64 overflow-hidden shadow-lg h-full">
+<article
+  transition:name={id}
+  class="bg-white rounded w-full max-w-64 overflow-hidden shadow-lg h-full"
+>
   <div class="flex items-center justify-around bg-zinc-800 text-white">
     <p class="text-lg font-semibold m-1">
       {monthName}
@@ -77,4 +80,4 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
       )
     }
   </section>
-</div>
+</article>
