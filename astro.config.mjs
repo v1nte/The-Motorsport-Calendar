@@ -13,5 +13,8 @@ export default defineConfig({
   integrations: [tailwind()],
   image: {
     service: passthroughImageService()
+  },
+  experimental: {
+    svg: true
   }
 });
