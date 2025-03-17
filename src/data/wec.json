@@ -14,7 +14,8 @@
     "officialName": "6 Hours of Imola",
     "location": "Imola, Italy",
     "dates": {
-      "mainEvent": "2025-4-20"
+      "mainEvent": "2025-04-20",
+      "duration": 6
     },
     "circuit": "Autodromo Internazionale Enzo e Dino Ferrari",
     "logo": "wec"
