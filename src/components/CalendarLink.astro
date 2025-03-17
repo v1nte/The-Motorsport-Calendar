@@ -1,0 +1,18 @@
+---
+const { title, date } = Astro.props;
+import { google } from "calendar-link";
+import CalendarSVG from "../assets/calendar.svg";
+
+const event = {
+  title,
+  start: date,
+  allDay: true,
+};
+const googleLink = google(event);
+---
+
+<div class="flex items-center justify-center">
+  <a href={googleLink}>
+    <CalendarSVG size={35} fill={"white"} />
+  </a>
+</div>
