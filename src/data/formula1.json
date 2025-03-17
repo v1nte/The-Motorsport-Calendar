@@ -1,5 +1,6 @@
 [
   {
+    "id": "f1-2025-1",
     "commonName": "Australian GP",
     "officialName": "Formula 1 Australian Grand Prix 2025",
     "location": "Melbourne, Australia",
@@ -18,6 +19,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-2",
     "commonName": "Chinese GP",
     "officialName": "Formula 1 Heineken Chinese Grand Prix 2025",
     "location": "Shanghai, China",
@@ -35,6 +37,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-3",
     "commonName": "Japanese GP",
     "officialName": "Formula 1 Lenovo Japanese Grand Prix 2025",
     "location": "Suzuka, Japan",
@@ -53,6 +56,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-4",
     "commonName": "Bahrain GP",
     "officialName": "Formula 1 Bahrain Grand Prix 2025",
     "location": "Bahrain",
@@ -71,6 +75,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-5",
     "commonName": "Saudi Arabian GP",
     "officialName": "Formula 1 STC Saudi Arabian Grand Prix 2025",
     "location": "Jeddah, Saudi Arabia",
@@ -89,6 +94,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-6",
     "commonName": "Miami GP",
     "officialName": "Formula 1 crypto.com Miami Grand Prix 2025",
     "location": "Miami, USA",
@@ -106,6 +112,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-7",
     "commonName": "Imola GP",
     "officialName": "Formula 1 AWS Gran Premio del Made in Italy e Dell'Emilia-Romagna 2025",
     "location": "Imola, Italy",
@@ -124,6 +131,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-8",
     "commonName": "Monaco GP",
     "officialName": "Formula 1 Grand Prix de Monaco 2025",
     "location": "Monaco",
@@ -142,6 +150,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-9",
     "commonName": "Spanish GP",
     "officialName": "Formula 1 Aramco Gran Premio de España 2025",
     "location": "Barcelona, Spain",
@@ -160,6 +169,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-10",
     "commonName": "Canadian GP",
     "officialName": "Formula 1 Pirelli Gran Prix Du Canada 2025",
     "location": "Montreal, Canada",
@@ -178,6 +188,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-11",
     "commonName": "Austrian GP",
     "officialName": "Formula 1 MSC Cruises Austrian Grand Prix 2025",
     "location": "Spielberg, Austria",
@@ -196,6 +207,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-12",
     "commonName": "British GP",
     "officialName": "Formula 1 Qatar Airways British Grand Prix 2025",
     "location": "Silverstone, UK",
@@ -214,6 +226,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-13",
     "commonName": "Belgium GP",
     "officialName": "Formula 1 Belgium Grand Prix 2025",
     "location": "Lieja, Belgium",
@@ -232,6 +245,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-14",
     "commonName": "Hungarian GP",
     "officialName": "Formula 1 Lenovo Hungarian Grand Prix 2025",
     "location": "Mogyorod, Hungary",
@@ -250,6 +264,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-15",
     "commonName": "Dutch GP",
     "officialName": "Formula 1 Heineken Dutch Grand Prix 2025",
     "location": "Zandvoort, Netherlands",
@@ -268,6 +283,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-16",
     "commonName": "Italian GP",
     "officialName": "Formula 1 Pirelli Gran Premio D'Italia 2025",
     "location": "Monza, Italy",
@@ -286,6 +302,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-17",
     "commonName": "Azerbaijan GP",
     "officialName": "Formula 1 Qatar Airways Azerbaijan Grand Prix 2025",
     "location": "Baku, Azerbaijan",
@@ -304,6 +321,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-18",
     "commonName": "Singapore GP",
     "officialName": "Formula 1 Singapore Airlines Singapore Grand Prix 2025",
     "location": "Marina Bay, Singapore",
@@ -322,6 +340,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-19",
     "commonName": "US GP",
     "officialName": "Formula 1 MSC Cruises United States Grand Prix 2025",
     "location": "Austin, US",
@@ -340,6 +359,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-20",
     "commonName": "Mexican GP",
     "officialName": "Formula 1 Gran Premio de la Ciudad de México 2025",
     "location": "Mexico City, Mexico",
@@ -358,6 +378,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-21",
     "commonName": "Brazilian GP",
     "officialName": "Formula 1 MSC Cruises Grande Prêmio De São Paulo 2025",
     "location": "Sao Paulo, Brazil",
@@ -376,6 +397,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-22",
     "commonName": "Las Vegas GP",
     "officialName": "Formula 1 Heineken Silver Las Vegas Grand Prix 2025",
     "location": "Las Vegas, US",
@@ -394,6 +416,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-23",
     "commonName": "Qatar GP",
     "officialName": "Formula 1 Qatar Airways Qatar Grand Prix 2025",
     "location": "Doha, Qatar",
@@ -412,6 +435,7 @@
     "logo": "f1"
   },
   {
+    "id": "f1-2025-24",
     "commonName": "Abu Dhabi GP",
     "officialName": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2025",
     "location": "Abu Dhabi, UAE",
