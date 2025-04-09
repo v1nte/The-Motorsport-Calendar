@@ -1,18 +1,18 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
 export function getSortedEvents() {
-  const dataDirectory = path.resolve('./src/data');
+  const dataDirectory = path.resolve("./src/data");
 
   const files = fs.readdirSync(dataDirectory);
 
-  const jsonFiles = files.filter((file) => file.endsWith('.json'));
+  const jsonFiles = files.filter((file) => file.endsWith(".json"));
 
   let events: any[] = [];
 
   jsonFiles.forEach((file) => {
     const filePath = path.join(dataDirectory, file);
-    const fileData = fs.readFileSync(filePath, 'utf-8');
+    const fileData = fs.readFileSync(filePath, "utf-8");
     try {
       const parsedData = JSON.parse(fileData);
       events = [...events, ...parsedData];
