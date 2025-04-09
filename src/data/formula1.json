@@ -1,429 +1,311 @@
 [
   {
+    "id": "f1-2025-1",
     "commonName": "Australian GP",
     "officialName": "Formula 1 Australian Grand Prix 2025",
     "location": "Melbourne, Australia",
     "dates": {
-      "practices": [
-        "2025-03-14",
-        "2025-03-14",
-        "2025-03-15"
-      ],
-      "qualys": [
-        "2025-03-15"
-      ],
+      "practices": ["2025-03-14", "2025-03-14", "2025-03-15"],
+      "qualys": ["2025-03-15"],
       "mainEvent": "2025-03-16"
     },
     "circuit": "Albert Park Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-2",
     "commonName": "Chinese GP",
     "officialName": "Formula 1 Heineken Chinese Grand Prix 2025",
     "location": "Shanghai, China",
     "dates": {
-      "practices": [
-        "2025-03-21"
-      ],
-      "qualys": [
-        "2025-03-21",
-        "2025-03-22"
-      ],
+      "practices": ["2025-03-21"],
+      "qualys": ["2025-03-21", "2025-03-22"],
       "mainEvent": "2025-03-23"
     },
     "circuit": "Shanghai International Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-3",
     "commonName": "Japanese GP",
     "officialName": "Formula 1 Lenovo Japanese Grand Prix 2025",
     "location": "Suzuka, Japan",
     "dates": {
-      "practices": [
-        "2025-04-04",
-        "2025-04-04",
-        "2025-04-05"
-      ],
-      "qualys": [
-        "2025-04-05"
-      ],
+      "practices": ["2025-04-04", "2025-04-04", "2025-04-05"],
+      "qualys": ["2025-04-05"],
       "mainEvent": "2025-04-06"
     },
     "circuit": "Suzuka Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-4",
     "commonName": "Bahrain GP",
     "officialName": "Formula 1 Bahrain Grand Prix 2025",
     "location": "Bahrain",
     "dates": {
-      "practices": [
-        "2025-04-11",
-        "2025-04-11",
-        "2025-04-12"
-      ],
-      "qualys": [
-        "2025-04-12"
-      ],
+      "practices": ["2025-04-11", "2025-04-11", "2025-04-12"],
+      "qualys": ["2025-04-12"],
       "mainEvent": "2025-04-13"
     },
     "circuit": "Bahrain International Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-5",
     "commonName": "Saudi Arabian GP",
     "officialName": "Formula 1 STC Saudi Arabian Grand Prix 2025",
     "location": "Jeddah, Saudi Arabia",
     "dates": {
-      "practices": [
-        "2025-04-18",
-        "2025-04-18",
-        "2025-04-10"
-      ],
-      "qualys": [
-        "2025-04-19"
-      ],
+      "practices": ["2025-04-18", "2025-04-18", "2025-04-10"],
+      "qualys": ["2025-04-19"],
       "mainEvent": "2025-04-20"
     },
     "circuit": "Jeddah Corniche Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-6",
     "commonName": "Miami GP",
     "officialName": "Formula 1 crypto.com Miami Grand Prix 2025",
     "location": "Miami, USA",
     "dates": {
-      "practices": [
-        "2025-05-02"
-      ],
-      "qualys": [
-        "2025-05-02",
-        "2025-05-03"
-      ],
+      "practices": ["2025-05-02"],
+      "qualys": ["2025-05-02", "2025-05-03"],
       "mainEvent": "2025-05-04"
     },
     "circuit": "Miami International Autodrome",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-7",
     "commonName": "Imola GP",
     "officialName": "Formula 1 AWS Gran Premio del Made in Italy e Dell'Emilia-Romagna 2025",
     "location": "Imola, Italy",
     "dates": {
-      "practices": [
-        "2025-05-16",
-        "2025-05-16",
-        "2025-05-17"
-      ],
-      "qualys": [
-        "2025-05-17"
-      ],
+      "practices": ["2025-05-16", "2025-05-16", "2025-05-17"],
+      "qualys": ["2025-05-17"],
       "mainEvent": "2025-05-18"
     },
     "circuit": "Autodromo Internazionale Enzo e Dino Ferrari",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-8",
     "commonName": "Monaco GP",
     "officialName": "Formula 1 Grand Prix de Monaco 2025",
     "location": "Monaco",
     "dates": {
-      "practices": [
-        "2025-05-23",
-        "2025-05-23",
-        "2025-05-24"
-      ],
-      "qualys": [
-        "2025-05-24"
-      ],
+      "practices": ["2025-05-23", "2025-05-23", "2025-05-24"],
+      "qualys": ["2025-05-24"],
       "mainEvent": "2025-05-25"
     },
     "circuit": "Circuit de Monaco",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-9",
     "commonName": "Spanish GP",
     "officialName": "Formula 1 Aramco Gran Premio de España 2025",
     "location": "Barcelona, Spain",
     "dates": {
-      "practices": [
-        "2025-05-30",
-        "2025-05-30",
-        "2025-05-31"
-      ],
-      "qualys": [
-        "2025-05-31"
-      ],
+      "practices": ["2025-05-30", "2025-05-30", "2025-05-31"],
+      "qualys": ["2025-05-31"],
       "mainEvent": "2025-06-01"
     },
     "circuit": "Circuit de Barcelona-Catalunya",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-10",
     "commonName": "Canadian GP",
     "officialName": "Formula 1 Pirelli Gran Prix Du Canada 2025",
     "location": "Montreal, Canada",
     "dates": {
-      "practices": [
-        "2025-06-13",
-        "2025-06-13",
-        "2025-06-14"
-      ],
-      "qualys": [
-        "2025-06-14"
-      ],
+      "practices": ["2025-06-13", "2025-06-13", "2025-06-14"],
+      "qualys": ["2025-06-14"],
       "mainEvent": "2025-06-15"
     },
     "circuit": "Circuit Guilles-Villeneuve",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-11",
     "commonName": "Austrian GP",
     "officialName": "Formula 1 MSC Cruises Austrian Grand Prix 2025",
     "location": "Spielberg, Austria",
     "dates": {
-      "practices": [
-        "2025-06-27",
-        "2025-06-27",
-        "2025-06-28"
-      ],
-      "qualys": [
-        "2025-06-28"
-      ],
+      "practices": ["2025-06-27", "2025-06-27", "2025-06-28"],
+      "qualys": ["2025-06-28"],
       "mainEvent": "2025-06-29"
     },
     "circuit": "Redbull Ring",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-12",
     "commonName": "British GP",
     "officialName": "Formula 1 Qatar Airways British Grand Prix 2025",
     "location": "Silverstone, UK",
     "dates": {
-      "practices": [
-        "2025-07-04",
-        "2025-07-04",
-        "2025-07-05"
-      ],
-      "qualys": [
-        "2025-07-05"
-      ],
+      "practices": ["2025-07-04", "2025-07-04", "2025-07-05"],
+      "qualys": ["2025-07-05"],
       "mainEvent": "2025-07-06"
     },
     "circuit": "Silverstone Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-13",
     "commonName": "Belgium GP",
     "officialName": "Formula 1 Belgium Grand Prix 2025",
     "location": "Lieja, Belgium",
     "dates": {
-      "practices": [
-        "2025-07-25",
-        "2025-07-25",
-        "2025-07-26"
-      ],
-      "qualys": [
-        "2025-07-26"
-      ],
+      "practices": ["2025-07-25", "2025-07-25", "2025-07-26"],
+      "qualys": ["2025-07-26"],
       "mainEvent": "2025-07-27"
     },
     "circuit": "Circuit de Spa-Francorchamps",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-14",
     "commonName": "Hungarian GP",
     "officialName": "Formula 1 Lenovo Hungarian Grand Prix 2025",
     "location": "Mogyorod, Hungary",
     "dates": {
-      "practices": [
-        "2025-08-01",
-        "2025-08-01",
-        "2025-08-02"
-      ],
-      "qualys": [
-        "2025-08-02"
-      ],
+      "practices": ["2025-08-01", "2025-08-01", "2025-08-02"],
+      "qualys": ["2025-08-02"],
       "mainEvent": "2025-08-03"
     },
     "circuit": "Hungaroring",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-15",
     "commonName": "Dutch GP",
     "officialName": "Formula 1 Heineken Dutch Grand Prix 2025",
     "location": "Zandvoort, Netherlands",
     "dates": {
-      "practices": [
-        "2025-08-29",
-        "2025-08-29",
-        "2025-08-30"
-      ],
-      "qualys": [
-        "2025-08-30"
-      ],
+      "practices": ["2025-08-29", "2025-08-29", "2025-08-30"],
+      "qualys": ["2025-08-30"],
       "mainEvent": "2025-08-31"
     },
     "circuit": "Circuit Zandvoort",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-16",
     "commonName": "Italian GP",
     "officialName": "Formula 1 Pirelli Gran Premio D'Italia 2025",
     "location": "Monza, Italy",
     "dates": {
-      "practices": [
-        "2025-09-05",
-        "2025-09-05",
-        "2025-09-06"
-      ],
-      "qualys": [
-        "2025-09-06"
-      ],
+      "practices": ["2025-09-05", "2025-09-05", "2025-09-06"],
+      "qualys": ["2025-09-06"],
       "mainEvent": "2025-09-07"
     },
     "circuit": "Autodromo Nazionale Monza",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-17",
     "commonName": "Azerbaijan GP",
     "officialName": "Formula 1 Qatar Airways Azerbaijan Grand Prix 2025",
     "location": "Baku, Azerbaijan",
     "dates": {
-      "practices": [
-        "2025-09-19",
-        "2025-09-19",
-        "2025-09-20"
-      ],
-      "qualys": [
-        "2025-09-20"
-      ],
+      "practices": ["2025-09-19", "2025-09-19", "2025-09-20"],
+      "qualys": ["2025-09-20"],
       "mainEvent": "2025-09-21"
     },
     "circuit": "Baku City Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-18",
     "commonName": "Singapore GP",
     "officialName": "Formula 1 Singapore Airlines Singapore Grand Prix 2025",
     "location": "Marina Bay, Singapore",
     "dates": {
-      "practices": [
-        "2025-10-03",
-        "2025-10-03",
-        "2025-10-04"
-      ],
-      "qualys": [
-        "2025-10-04"
-      ],
+      "practices": ["2025-10-03", "2025-10-03", "2025-10-04"],
+      "qualys": ["2025-10-04"],
       "mainEvent": "2025-10-05"
     },
     "circuit": "Marina Bay Street Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-19",
     "commonName": "US GP",
     "officialName": "Formula 1 MSC Cruises United States Grand Prix 2025",
     "location": "Austin, US",
     "dates": {
-      "practices": [
-        "2025-10-17",
-        "2025-10-17",
-        "2025-10-18"
-      ],
-      "qualys": [
-        "2025-10-18"
-      ],
+      "practices": ["2025-10-17", "2025-10-17", "2025-10-18"],
+      "qualys": ["2025-10-18"],
       "mainEvent": "2025-10-19"
     },
     "circuit": "Circuit of the Americas",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-20",
     "commonName": "Mexican GP",
     "officialName": "Formula 1 Gran Premio de la Ciudad de México 2025",
     "location": "Mexico City, Mexico",
     "dates": {
-      "practices": [
-        "2025-10-24",
-        "2025-10-24",
-        "2025-10-25"
-      ],
-      "qualys": [
-        "2025-10-25"
-      ],
+      "practices": ["2025-10-24", "2025-10-24", "2025-10-25"],
+      "qualys": ["2025-10-25"],
       "mainEvent": "2025-10-26"
     },
     "circuit": "Autódromo Hermanos Rodríguez",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-21",
     "commonName": "Brazilian GP",
     "officialName": "Formula 1 MSC Cruises Grande Prêmio De São Paulo 2025",
     "location": "Sao Paulo, Brazil",
     "dates": {
-      "practices": [
-        "2025-11-07",
-        "2025-11-07",
-        "2025-11-08"
-      ],
-      "qualys": [
-        "2025-10-08"
-      ],
+      "practices": ["2025-11-07", "2025-11-07", "2025-11-08"],
+      "qualys": ["2025-10-08"],
       "mainEvent": "2025-11-09"
     },
     "circuit": "Autódromo José Carlos Pace",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-22",
     "commonName": "Las Vegas GP",
     "officialName": "Formula 1 Heineken Silver Las Vegas Grand Prix 2025",
     "location": "Las Vegas, US",
     "dates": {
-      "practices": [
-        "2025-11-20",
-        "2025-11-20",
-        "2025-11-21"
-      ],
-      "qualys": [
-        "2025-10-21"
-      ],
+      "practices": ["2025-11-20", "2025-11-20", "2025-11-21"],
+      "qualys": ["2025-10-21"],
       "mainEvent": "2025-11-22"
     },
     "circuit": "Las Vegas Strip Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-23",
     "commonName": "Qatar GP",
     "officialName": "Formula 1 Qatar Airways Qatar Grand Prix 2025",
     "location": "Doha, Qatar",
     "dates": {
-      "practices": [
-        "2025-11-28",
-        "2025-11-28",
-        "2025-11-29"
-      ],
-      "qualys": [
-        "2025-10-29"
-      ],
+      "practices": ["2025-11-28", "2025-11-28", "2025-11-29"],
+      "qualys": ["2025-10-29"],
       "mainEvent": "2025-11-30"
     },
     "circuit": "Lusail International Circuit",
     "logo": "f1"
   },
   {
+    "id": "f1-2025-24",
     "commonName": "Abu Dhabi GP",
     "officialName": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2025",
     "location": "Abu Dhabi, UAE",
     "dates": {
-      "practices": [
-        "2025-12-05",
-        "2025-12-05",
-        "2025-12-06"
-      ],
-      "qualys": [
-        "2025-12-06"
-      ],
+      "practices": ["2025-12-05", "2025-12-05", "2025-12-06"],
+      "qualys": ["2025-12-06"],
       "mainEvent": "2025-12-07"
     },
     "circuit": "Yas Marina Circuit",

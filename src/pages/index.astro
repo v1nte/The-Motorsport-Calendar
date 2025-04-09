@@ -17,6 +17,8 @@ let lastMonth = -1;
       events.map((event) => {
         const { month, monthName } = getMonthDetails(event.dates.mainEvent);
 
+        event.id ??= "none";
+
         const isNewMonth = month !== lastMonth;
         const loadingType = month === 0 || month === 1 ? "eager" : "lazy";
         if (isNewMonth) {
@@ -29,6 +31,7 @@ let lastMonth = -1;
               </div>
 
               <EventCard
+                id={event.id}
                 name={event.commonName}
                 circuit={event.circuit}
                 fullName={event.officialName}
@@ -43,6 +46,7 @@ let lastMonth = -1;
 
         return (
           <EventCard
+            id={event.id}
             name={event.commonName}
             circuit={event.circuit}
             fullName={event.officialName}

@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import f1Events from "../data/formula1.json";
+
+const { id } = Astro.params;
+
+export function getStaticPaths() {
+  const paths = f1Events.map((item) => ({
+    params: { id: item.id },
+  }));
+
+  return paths;
+}
+---
+
+<Layout transition:name={id}>
+  <main class="grid place-items-center">
+    <div class="bg-red-500 p-48">hola, {id}</div>
+  </main>
+</Layout>
