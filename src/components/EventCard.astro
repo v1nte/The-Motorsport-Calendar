@@ -10,10 +10,6 @@ const { id, name, fullName, circuit, dates, logo, location, loading } =
 const { mainEvent } = dates;
 
 const mainEventDate = new Date(mainEvent);
-const today = new Date();
-
-const diffInMillis = mainEventDate - today; //
-const diffInDays = Math.floor(diffInMillis / (1000 * 60 * 60 * 24));
 
 const imagePath = `/The-Motorsport-Calendar/logos/${logo}.webp`;
 
