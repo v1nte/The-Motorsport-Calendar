@@ -31,13 +31,12 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
       {day}
     </p>
     <CalendarLink title={name} date={mainEvent} />
-    {
-      diffInDays > 0 ? ( // aka: to be raced
-        <p class="text-lg font-semibold m-1"> In {diffInDays}d </p>
-      ) : (
-        <p class="text-lg font-semibold m-1">Finished</p>
-      )
-    }
+    <p
+      class="text-lg font-semibold m-1 js-event-countdown"
+      data-event-date={mainEvent}
+    >
+      Loading...
+    </p>
   </div>
   <div class="relative aspect-square bg-gray-500/10">
     <Image
@@ -84,3 +83,26 @@ const day = mainEventDate.toLocaleString("en-US", { day: "2-digit" });
     }
   </section>
 </article>
+
+<script is:inline>
+  document.addEventListener("DOMContentLoaded", () => {
+    const countdownEls = document.querySelectorAll(".js-event-countdown");
+
+    countdownEls.forEach((el) => {
+      const eventDate = new Date(el.dataset.eventDate);
+      const today = new Date();
+
+      eventDate.setHours(0, 0, 0, 0);
+      today.setHours(0, 0, 0, 0);
+
+      const diffInMillis = eventDate - today;
+      const diffInDays = Math.floor(diffInMillis / (1000 * 60 * 60 * 24));
+
+      if (diffInDays > 0) {
+        el.textContent = `In ${diffInDays}d`;
+      } else {
+        el.textContent = "Finished";
+      }
+    });
+  });
+</script>
