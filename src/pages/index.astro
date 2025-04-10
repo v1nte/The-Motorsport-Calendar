@@ -60,3 +60,36 @@ let lastMonth = -1;
     }
   </main>
 </Layout>
+
+<script is:inline>
+  window.addEventListener("DOMContentLoaded", () => {
+    const monthNames = [
+      "january",
+      "february",
+      "march",
+      "april",
+      "may",
+      "june",
+      "july",
+      "august",
+      "september",
+      "october",
+      "november",
+      "december",
+    ];
+
+    const currentMonthIndex = new Date().getMonth();
+    const currentMonthId = monthNames[currentMonthIndex];
+
+    const targetDiv = document.getElementById(currentMonthId);
+
+    if (targetDiv) {
+      targetDiv.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else {
+      console.warn(`No element found with id="#${currentMonthId}"`);
+    }
+  });
+</script>
