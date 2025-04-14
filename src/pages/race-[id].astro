@@ -1,6 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import f1Events from "../data/formula1.json";
+import { Image } from "astro:assets";
+
+const f1Logo = `/The-Motorsport-Calendar/logos/f1.webp`;
 
 const { id } = Astro.params;
 
@@ -11,10 +14,33 @@ export function getStaticPaths() {
 
   return paths;
 }
+
+const eventData = f1Events.find((el) => el.id === id);
+eventData;
 ---
 
 <Layout transition:name={id}>
   <main class="grid place-items-center">
-    <div class="bg-red-500 p-48">hola, {id}</div>
+    <Image
+      src={f1Logo}
+      alt={`F1 Logo`}
+      width={400}
+      height={400}
+      inferSize={true}
+    />
+    <h1>{eventData?.officialName}</h1>
+    <h2>{eventData?.location}</h2>
+    <section>
+      <h1>Main Event:</h1>
+      <p>{eventData?.dates?.mainEvent}</p>
+    </section>
+    <section>
+      <h2>Practice Sesions:</h2>
+      {eventData?.dates.practices.map((el) => <p>{el}</p>)}
+    </section>
+    <section>
+      <h2>Qualy(s):</h2>
+      {eventData?.dates.qualys.map((el) => <p>{el}</p>)}
+    </section>
   </main>
 </Layout>
