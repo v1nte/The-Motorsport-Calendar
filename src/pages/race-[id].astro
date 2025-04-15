@@ -44,12 +44,12 @@ console.log(dates);
     <div class="flex">
       <section class="bg-white rounded p-4">
         <h2 class="text-2xl">Practice Sessions:</h2>
-        {eventData?.dates.practices.map((el) => <p>{el}</p>)}
+        {dates.practices.map((el) => <p>{el.toDateString()}</p>)}
       </section>
 
       <section class="bg-yellow-200 rounded p-4">
         <h2 class="text-2xl">Qualy(s):</h2>
-        {eventData?.dates.qualys.map((el) => <p>{el}</p>)}
+        {dates.qualys.map((el) => <p>{el.toDateString()}</p>)}
       </section>
 
       <section class="bg-red-400 rounded p-4">
