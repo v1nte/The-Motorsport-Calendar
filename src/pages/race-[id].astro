@@ -21,7 +21,11 @@ const rawDates = eventData.dates;
 const dates = {
   practices: rawDates?.practices.map((dateStr) => new Date(dateStr)),
   qualys: rawDates?.qualys.map((dateStr) => new Date(dateStr)),
-  mainEvent: new Date(rawDates.mainEvent),
+  races: rawDates.mainEvent
+    ? Array.isArray(rawDates.mainEvent)
+      ? rawDates.mainEvent.map((dateStr) => new Date(dateStr))
+      : [new Date(rawDates.mainEvent)]
+    : [],
 };
 console.log(dates);
 ---
@@ -53,9 +57,9 @@ console.log(dates);
       </section>
 
       <section class="bg-red-400 rounded p-4">
-        <h2 class="text-2xl font-semibold">Main Event:</h2>
+        <h2 class="text-2xl font-semibold">Race(s):</h2>
         <p class="text-xl font-light">
-          {eventData?.dates?.mainEvent}
+          {dates?.races.map((el) => <p>{el.toDateString()}</p>)}
         </p>
       </section>
     </div>
