@@ -20,7 +20,7 @@
     "dates": {
       "practices": ["2025-03-21"],
       "qualys": ["2025-03-21", "2025-03-22"],
-      "mainEvent": "2025-03-23"
+      "mainEvent": ["2025-03-22", "2025-03-23"]
     },
     "circuit": "Shanghai International Circuit",
     "logo": "f1"
@@ -72,7 +72,7 @@
     "dates": {
       "practices": ["2025-05-02"],
       "qualys": ["2025-05-02", "2025-05-03"],
-      "mainEvent": "2025-05-04"
+      "mainEvent": ["2025-05-03", "2025-05-04"]
     },
     "circuit": "Miami International Autodrome",
     "logo": "f1"
@@ -163,7 +163,7 @@
     "dates": {
       "practices": ["2025-07-25", "2025-07-25", "2025-07-26"],
       "qualys": ["2025-07-26"],
-      "mainEvent": "2025-07-27"
+      "mainEvent": ["2025-07-26", "2025-07-27"]
     },
     "circuit": "Circuit de Spa-Francorchamps",
     "logo": "f1"
@@ -241,7 +241,7 @@
     "dates": {
       "practices": ["2025-10-17", "2025-10-17", "2025-10-18"],
       "qualys": ["2025-10-18"],
-      "mainEvent": "2025-10-19"
+      "mainEvent": ["2025-10-18", "2025-10-19"]
     },
     "circuit": "Circuit of the Americas",
     "logo": "f1"
@@ -267,7 +267,7 @@
     "dates": {
       "practices": ["2025-11-07", "2025-11-07", "2025-11-08"],
       "qualys": ["2025-10-08"],
-      "mainEvent": "2025-11-09"
+      "mainEvent": ["2025-11-18", "2025-11-09"]
     },
     "circuit": "Autódromo José Carlos Pace",
     "logo": "f1"
@@ -293,7 +293,7 @@
     "dates": {
       "practices": ["2025-11-28", "2025-11-28", "2025-11-29"],
       "qualys": ["2025-10-29"],
-      "mainEvent": "2025-11-30"
+      "mainEvent": ["2025-11-29", "2025-11-30"]
     },
     "circuit": "Lusail International Circuit",
     "logo": "f1"
