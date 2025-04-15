@@ -27,6 +27,12 @@ const dates = {
       : [new Date(rawDates.mainEvent)]
     : [],
 };
+
+const options = {
+  weekday: "short",
+  month: "short",
+  day: "2-digit",
+};
 ---
 
 <Layout transition:name={id}>
@@ -47,18 +53,30 @@ const dates = {
     <div class="flex">
       <section class="bg-white rounded p-4">
         <h2 class="text-2xl">Practice Sessions:</h2>
-        {dates.practices.map((el) => <p>{el.toDateString()}</p>)}
+        {
+          dates.practices.map((el) => (
+            <p>{el.toLocaleDateString("en-US", options)}</p>
+          ))
+        }
       </section>
 
       <section class="bg-yellow-200 rounded p-4">
         <h2 class="text-2xl">Qualy(s):</h2>
-        {dates.qualys.map((el) => <p>{el.toDateString()}</p>)}
+        {
+          dates.qualys.map((el) => (
+            <p>{el.toLocaleDateString("en-US", options)}</p>
+          ))
+        }
       </section>
 
       <section class="bg-red-400 rounded p-4">
         <h2 class="text-2xl font-semibold">Race(s):</h2>
         <p class="text-xl font-light">
-          {dates?.races.map((el) => <p>{el.toDateString()}</p>)}
+          {
+            dates?.races.map((el) => (
+              <p>{el.toLocaleDateString("en-US", options)}</p>
+            ))
+          }
         </p>
       </section>
     </div>
