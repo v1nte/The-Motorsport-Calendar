@@ -16,7 +16,14 @@ export function getStaticPaths() {
 }
 
 const eventData = f1Events.find((el) => el.id === id);
-eventData;
+const rawDates = eventData.dates;
+
+const dates = {
+  practices: rawDates?.practices.map((dateStr) => new Date(dateStr)),
+  qualys: rawDates?.qualys.map((dateStr) => new Date(dateStr)),
+  mainEvent: new Date(rawDates.mainEvent),
+};
+console.log(dates);
 ---
 
 <Layout transition:name={id}>
@@ -24,23 +31,32 @@ eventData;
     <Image
       src={f1Logo}
       alt={`F1 Logo`}
-      width={400}
-      height={400}
+      width={350}
+      height={1}
       inferSize={true}
     />
-    <h1>{eventData?.officialName}</h1>
-    <h2>{eventData?.location}</h2>
-    <section>
-      <h1>Main Event:</h1>
-      <p>{eventData?.dates?.mainEvent}</p>
-    </section>
-    <section>
-      <h2>Qualy(s):</h2>
-      {eventData?.dates.qualys.map((el) => <p>{el}</p>)}
-    </section>
-    <section>
-      <h2>Practice Sesions:</h2>
-      {eventData?.dates.practices.map((el) => <p>{el}</p>)}
-    </section>
+    <h1 class="text-3xl font-bold">{eventData?.officialName}</h1>
+    <h2 class="text-2xl font-light m-4">
+      {eventData?.circuit} at {eventData?.location}
+    </h2>
+
+    <div class="flex">
+      <section class="bg-white rounded p-4">
+        <h2 class="text-2xl">Practice Sessions:</h2>
+        {eventData?.dates.practices.map((el) => <p>{el}</p>)}
+      </section>
+
+      <section class="bg-yellow-200 rounded p-4">
+        <h2 class="text-2xl">Qualy(s):</h2>
+        {eventData?.dates.qualys.map((el) => <p>{el}</p>)}
+      </section>
+
+      <section class="bg-red-400 rounded p-4">
+        <h2 class="text-2xl font-semibold">Main Event:</h2>
+        <p class="text-xl font-light">
+          {eventData?.dates?.mainEvent}
+        </p>
+      </section>
+    </div>
   </main>
 </Layout>
