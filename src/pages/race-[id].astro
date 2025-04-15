@@ -36,7 +36,7 @@ const options = {
 ---
 
 <Layout transition:name={id}>
-  <main class="grid place-items-center">
+  <main class="grid place-items-center gap-2">
     <Image
       src={f1Logo}
       alt={`F1 Logo`}
@@ -44,11 +44,7 @@ const options = {
       height={1}
       inferSize={true}
     />
-    <h1 class="text-3xl font-bold">{eventData?.officialName}</h1>
-    <h2 class="text-2xl font-light m-4">
-      {eventData?.circuit}
-      <span class="italic"> - {eventData?.location} </span>
-    </h2>
+    <h1 class="text-3xl font-bold">{eventData?.commonName}</h1>
 
     <div class="flex">
       <section class="bg-white rounded p-4">
@@ -80,5 +76,10 @@ const options = {
         </p>
       </section>
     </div>
+    <h2 class="text-2xl font-light m-4">
+      {eventData?.circuit}
+      <span class="italic"> - {eventData?.location} </span>
+    </h2>
+    <h2 class="text-m italic p-2">{eventData?.officialName}</h2>
   </main>
 </Layout>
