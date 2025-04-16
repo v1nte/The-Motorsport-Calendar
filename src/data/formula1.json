@@ -46,7 +46,7 @@
     "dates": {
       "practices": ["2025-04-11", "2025-04-11", "2025-04-12"],
       "qualys": ["2025-04-12"],
-      "races": "2025-04-13"
+      "races": ["2025-04-13"]
     },
     "circuit": "Bahrain International Circuit",
     "logo": "f1"
