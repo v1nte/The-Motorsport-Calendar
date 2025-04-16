@@ -22,7 +22,7 @@ export function getSortedEvents() {
   });
 
   events.sort((a, b) => {
-    return new Date(a.dates.mainEvent) - new Date(b.dates.mainEvent);
+    return new Date(a.dates.races.at(-1)) - new Date(b.dates.races.at(-1));
   });
 
   return events;

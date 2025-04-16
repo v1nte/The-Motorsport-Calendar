@@ -15,7 +15,7 @@ let lastMonth = -1;
   >
     {
       events.map((event) => {
-        const { month, monthName } = getMonthDetails(event.dates.mainEvent);
+        const { month, monthName } = getMonthDetails(event.dates.races.at(-1));
 
         event.id ??= "none";
 
