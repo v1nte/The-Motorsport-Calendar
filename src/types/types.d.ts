@@ -9,8 +9,8 @@ interface RaceEvent {
 }
 
 interface EventDates {
-  practices?: Date[];
-  qualys?: Date[];
+  practices: string[];
+  qualys: string[];
+  races: string[];
   duration?: Number;
-  races: Date[];
 }

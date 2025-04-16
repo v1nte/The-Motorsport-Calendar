@@ -15,7 +15,7 @@ export function getStaticPaths() {
   return paths;
 }
 
-const eventData: any = f1Events.find((el) => el.id === id);
+const eventData: RaceEvent = f1Events.find((el) => el.id === id)!;
 const rawDates: EventDates = eventData.dates;
 
 const dates = {
