@@ -4,7 +4,7 @@
     "officialName": "MotoGP Thailand",
     "location": "Thailand",
     "dates": {
-      "mainEvent": "2025-03-03"
+      "races": "2025-03-03"
     },
     "circuit": "Chang International Circuit",
     "logo": "motogp"
@@ -14,7 +14,7 @@
     "officialName": "MotoGP Argentina",
     "location": "Argentina",
     "dates": {
-      "mainEvent": "2025-03-16"
+      "races": "2025-03-16"
     },
     "circuit": "Termas de Río Hondo",
     "logo": "motogp"
@@ -24,7 +24,7 @@
     "officialName": "MotoGP USA",
     "location": "Texas, USA",
     "dates": {
-      "mainEvent": "2025-03-30"
+      "races": "2025-03-30"
     },
     "circuit": "Circuit of the Americas",
     "logo": "motogp"
@@ -34,7 +34,7 @@
     "officialName": "MotoGP Qatar",
     "location": "Lusail, Qatar",
     "dates": {
-      "mainEvent": "2025-04-13"
+      "races": "2025-04-13"
     },
     "circuit": "Lusail international circuit",
     "logo": "motogp"
@@ -44,7 +44,7 @@
     "officialName": "MotoGP Spain",
     "location": "Jerez, Spain",
     "dates": {
-      "mainEvent": "2025-04-27"
+      "races": "2025-04-27"
     },
     "circuit": "Circuito de Jerez - Ángel Nieto",
     "logo": "motogp"
@@ -54,7 +54,7 @@
     "officialName": "MotoGP France",
     "location": "Le Mans, France",
     "dates": {
-      "mainEvent": "2025-05-11"
+      "races": "2025-05-11"
     },
     "circuit": "Circuit de la Sarthe",
     "logo": "motogp"
@@ -64,7 +64,7 @@
     "officialName": "MotoGP UK",
     "location": "Silverstone, UK",
     "dates": {
-      "mainEvent": "2025-05-25"
+      "races": "2025-05-25"
     },
     "circuit": "Silverstone Circuit",
     "logo": "motogp"
@@ -74,7 +74,7 @@
     "officialName": "MotoGP Aragon",
     "location": "Alcañiz, Spain",
     "dates": {
-      "mainEvent": "2025-06-08"
+      "races": "2025-06-08"
     },
     "circuit": "MotorLand Aragon",
     "logo": "imsa"
@@ -84,7 +84,7 @@
     "officialName": "MotoGP Italy",
     "location": "Mugello, Italy",
     "dates": {
-      "mainEvent": "2025-06-22"
+      "races": "2025-06-22"
     },
     "circuit": "Circuito internazionale del Mugello",
     "logo": "motogp"
@@ -94,7 +94,7 @@
     "officialName": "MotoGP Netherlands",
     "location": "",
     "dates": {
-      "mainEvent": "2025-06-29"
+      "races": "2025-06-29"
     },
     "circuit": "TT Circuit Assen",
     "logo": "motogp"
@@ -104,7 +104,7 @@
     "officialName": "MotoGP Germany",
     "location": "",
     "dates": {
-      "mainEvent": "2025-07-13"
+      "races": "2025-07-13"
     },
     "circuit": "Sachsenring",
     "logo": "motogp"
@@ -114,7 +114,7 @@
     "officialName": "MotoGP Czechia",
     "location": "",
     "dates": {
-      "mainEvent": "2025-07-20"
+      "races": "2025-07-20"
     },
     "circuit": "Automodrom BRNO",
     "logo": "motogp"
@@ -124,7 +124,7 @@
     "officialName": "MotoGP Austria",
     "location": "Spielberg, Austria",
     "dates": {
-      "mainEvent": "2025-08-17"
+      "races": "2025-08-17"
     },
     "circuit": "Redbull Ring",
     "logo": "motogp"
@@ -134,7 +134,7 @@
     "officialName": "MotoGP Hungary",
     "location": "",
     "dates": {
-      "mainEvent": "2025-08-24"
+      "races": "2025-08-24"
     },
     "circuit": "Balaton Park Circuit",
     "logo": "motogp"
@@ -144,7 +144,7 @@
     "officialName": "MotoGP Catalonia",
     "location": "Barcelona, Spain",
     "dates": {
-      "mainEvent": "2025-09-07"
+      "races": "2025-09-07"
     },
     "circuit": "Circuit de Barcelona-Catalunya",
     "logo": "motogp"
@@ -154,7 +154,7 @@
     "officialName": "MotoGP San Marino",
     "location": "San Marino",
     "dates": {
-      "mainEvent": "2025-09-14"
+      "races": "2025-09-14"
     },
     "circuit": "Misano World Circuit Marco Simonelli",
     "logo": "motogp"
@@ -164,7 +164,7 @@
     "officialName": "MotoGP Japan",
     "location": "",
     "dates": {
-      "mainEvent": "2025-09-28"
+      "races": "2025-09-28"
     },
     "circuit": "Mobility Resort Motegi",
     "logo": "motogp"
@@ -174,7 +174,7 @@
     "officialName": "MotoGP Indonesia",
     "location": "",
     "dates": {
-      "mainEvent": "2025-10-05"
+      "races": "2025-10-05"
     },
     "circuit": "Pertamina Mandalika International Circuit",
     "logo": "motogp"
@@ -184,7 +184,7 @@
     "officialName": "MotoGP Australia",
     "location": "",
     "dates": {
-      "mainEvent": "2025-10-19"
+      "races": "2025-10-19"
     },
     "circuit": "Philip Island",
     "logo": "motogp"
@@ -194,7 +194,7 @@
     "officialName": "MotoGP Malaysia",
     "location": "",
     "dates": {
-      "mainEvent": "2025-10-26"
+      "races": "2025-10-26"
     },
     "circuit": "Sepan International Circuit",
     "logo": "motogp"
@@ -204,7 +204,7 @@
     "officialName": "MotoGP Portugal",
     "location": "",
     "dates": {
-      "mainEvent": "2025-11-09"
+      "races": "2025-11-09"
     },
     "circuit": "Autódromo internacional do Algarve",
     "logo": "motogp"
@@ -214,7 +214,7 @@
     "officialName": "MotoGP Valencia",
     "location": "Valencia, Spain",
     "dates": {
-      "mainEvent": "2025-11-16"
+      "races": "2025-11-16"
     },
     "circuit": "Circuit Ricardo Tormo",
     "logo": "motogp"

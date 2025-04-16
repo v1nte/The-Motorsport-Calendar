@@ -4,7 +4,7 @@
     "officialName": "Qatar 1812Km",
     "location": "Doha, Qatar",
     "dates": {
-      "mainEvent": "2025-02-28"
+      "races": "2025-02-28"
     },
     "circuit": "Lusail International Circuit",
     "logo": "wec"
@@ -14,7 +14,7 @@
     "officialName": "6 Hours of Imola",
     "location": "Imola, Italy",
     "dates": {
-      "mainEvent": "2025-04-20",
+      "races": "2025-04-20",
       "duration": 6
     },
     "circuit": "Autodromo Internazionale Enzo e Dino Ferrari",
@@ -25,7 +25,7 @@
     "officialName": "TOTALENERGIES 6 Hours of Spa-Franchorchamps",
     "location": "Lieja, Belgium",
     "dates": {
-      "mainEvent": "2025-05-10"
+      "races": "2025-05-10"
     },
     "circuit": "Circuit de Spa-Franchorchamps",
     "logo": "wec"
@@ -35,7 +35,7 @@
     "officialName": "24 Hours of Le Mans",
     "location": "Le Mans, France",
     "dates": {
-      "mainEvent": "2025-06-14"
+      "races": "2025-06-14"
     },
     "circuit": "Circuit de la Sarthe",
     "logo": "lemans"
@@ -45,7 +45,7 @@
     "officialName": "Rolex 6 Hours of Sao Paulo",
     "location": "Sao Paulo, Brazil",
     "dates": {
-      "mainEvent": "2025-07-13"
+      "races": "2025-07-13"
     },
     "circuit": "Autódromo José Carlos Pache",
     "logo": "wec"
@@ -55,7 +55,7 @@
     "officialName": "Lone Star Le Mans",
     "location": "Austin, USA",
     "dates": {
-      "mainEvent": "2025-09-07"
+      "races": "2025-09-07"
     },
     "circuit": "Circuit of the Americas",
     "logo": "wec"
@@ -65,7 +65,7 @@
     "officialName": "6 Hours of Fuji",
     "location": "Shizouka, Japan",
     "dates": {
-      "mainEvent": "2025-09-28"
+      "races": "2025-09-28"
     },
     "circuit": "Fuji Speedway",
     "logo": "wec"
@@ -75,7 +75,7 @@
     "officialName": "Bapco Energies 8 Hours of Bahrain",
     "location": "Bahrain",
     "dates": {
-      "mainEvent": "2025-11-08"
+      "races": "2025-11-08"
     },
     "circuit": "Bahrain International Circuit",
     "logo": "wec"

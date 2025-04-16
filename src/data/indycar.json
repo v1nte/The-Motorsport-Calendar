@@ -4,7 +4,7 @@
     "officialName": "Firestone Grand Prix of St. Petersburg",
     "location": "St. Petersburg, Florida",
     "dates": {
-      "mainEvent": "2025-03-02"
+      "races": "2025-03-02"
     },
     "circuit": "Streets of St. Petersburg",
     "logo": "indycar"
@@ -14,7 +14,7 @@
     "officialName": "The Thermal Club Indycar Grand Prix",
     "location": "Thermal, California",
     "dates": {
-      "mainEvent": "2025-03-23"
+      "races": "2025-03-23"
     },
     "circuit": "The Thermal Club",
     "logo": "indycar"
@@ -24,7 +24,7 @@
     "officialName": "Acura Grand Prix of Long Beach",
     "location": "Long Beach, California",
     "dates": {
-      "mainEvent": "2025-04-13"
+      "races": "2025-04-13"
     },
     "circuit": "Thermal, California",
     "logo": "indycar"
@@ -34,7 +34,7 @@
     "officialName": "Children's Of Alabama Indy Grand Prix",
     "location": "Birmingham, Alabama",
     "dates": {
-      "mainEvent": "2025-05-04"
+      "races": "2025-05-04"
     },
     "circuit": "Barber Motorsports Park",
     "logo": "indycar"
@@ -44,7 +44,7 @@
     "officialName": "Sonsio Grand Prix",
     "location": "Indianapolis, Indiana",
     "dates": {
-      "mainEvent": "2025-05-10"
+      "races": "2025-05-10"
     },
     "circuit": "IMS Road Course",
     "logo": "indycar"
@@ -54,7 +54,7 @@
     "officialName": "109th Running of the Indianapolis 500",
     "location": "Indianapolis, Indiana",
     "dates": {
-      "mainEvent": "2025-05-25"
+      "races": "2025-05-25"
     },
     "circuit": "Indianapolis Motor Speedway",
     "logo": "indycar"
@@ -64,7 +64,7 @@
     "officialName": "Chevrolet Detroit Grand Prix",
     "location": "Detroit, Michigan",
     "dates": {
-      "mainEvent": "2025-06-01"
+      "races": "2025-06-01"
     },
     "circuit": "Streets of Detroit",
     "logo": "indycar"
@@ -74,7 +74,7 @@
     "officialName": "Bommarito Automotive Group 500",
     "location": "Madison, Illinois",
     "dates": {
-      "mainEvent": "2025-06-15"
+      "races": "2025-06-15"
     },
     "circuit": "World Wide Technology Raceway",
     "logo": "indycar"
@@ -84,7 +84,7 @@
     "officialName": "Xpel Grand Prix at Road America",
     "location": "Elkhart Lake, Wisconsin",
     "dates": {
-      "mainEvent": "2025-06-22"
+      "races": "2025-06-22"
     },
     "circuit": "Road America",
     "logo": "indycar"
@@ -94,7 +94,7 @@
     "officialName": "Honda Indy 200 at Mid-Ohio",
     "location": "Lexington, Ohio",
     "dates": {
-      "mainEvent": "2025-07-06"
+      "races": "2025-07-06"
     },
     "circuit": "Mid-Ohio Sports Car Course",
     "logo": "indycar"
@@ -104,7 +104,7 @@
     "officialName": "Indycar Race Weekend Race 1",
     "location": "Newton, Iowa",
     "dates": {
-      "mainEvent": "2025-07-12"
+      "races": "2025-07-12"
     },
     "circuit": "Iowa Speedway",
     "logo": "indycar"
@@ -114,7 +114,7 @@
     "officialName": "Indycar Race Weekend Race 2",
     "location": "Newton, Iowa",
     "dates": {
-      "mainEvent": "2025-07-13"
+      "races": "2025-07-13"
     },
     "circuit": "Iowa Speedway",
     "logo": "indycar"
@@ -124,7 +124,7 @@
     "officialName": "Ontario Honda Dealers Indy Toronto",
     "location": "Toronto, Ontario",
     "dates": {
-      "mainEvent": "2025-07-20"
+      "races": "2025-07-20"
     },
     "circuit": "Streets of Toronto",
     "logo": "indycar"
@@ -134,7 +134,7 @@
     "officialName": "Indycar Grand Prix of Monterey",
     "location": "Monterey, California",
     "dates": {
-      "mainEvent": "2025-07-27"
+      "races": "2025-07-27"
     },
     "circuit": "Laguna Seca",
     "logo": "indycar"
@@ -144,7 +144,7 @@
     "officialName": "Bitnile.com Grand Prix of Portland",
     "location": "Portland, Oregon",
     "dates": {
-      "mainEvent": "2025-08-10"
+      "races": "2025-08-10"
     },
     "circuit": "Portland International Raceway",
     "logo": "indycar"
@@ -154,7 +154,7 @@
     "officialName": "Snap-on Milwaukee Mile 250",
     "location": "West Allis, Wisconsin",
     "dates": {
-      "mainEvent": "2025-08-24"
+      "races": "2025-08-24"
     },
     "circuit": "Milwaukee Mile",
     "logo": "indycar"
@@ -164,7 +164,7 @@
     "officialName": "Big Machine Music City Grand Prix",
     "location": "Lebanon, Tennessee",
     "dates": {
-      "mainEvent": "2025-08-31"
+      "races": "2025-08-31"
     },
     "circuit": "Nashville Superspeedway",
     "logo": "indycar"

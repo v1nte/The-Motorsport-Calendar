@@ -4,7 +4,7 @@
     "officialName": "Rolex 24 at Daytona",
     "location": "Daytona, Florida",
     "dates": {
-      "mainEvent": "2025-01-25"
+      "races": "2025-01-25"
     },
     "circuit": "Daytona International Speedway",
     "logo": "imsa"
@@ -14,7 +14,7 @@
     "officialName": "Mobile 1 Twelve hours of Sebring",
     "location": "Sebring, Florida",
     "dates": {
-      "mainEvent": "2025-03-25"
+      "races": "2025-03-25"
     },
     "circuit": "Sebring International Raceway",
     "logo": "imsa"
@@ -24,7 +24,7 @@
     "officialName": "Acura Grand Prix of Long Beach",
     "location": "Long Beach, California",
     "dates": {
-      "mainEvent": "2025-04-12"
+      "races": "2025-04-12"
     },
     "circuit": "Long Beach Street Circuit",
     "logo": "imsa"
@@ -34,7 +34,7 @@
     "officialName": "IMSA WeatherTech Sportscar Championship of Monterey",
     "location": "Monteret, California",
     "dates": {
-      "mainEvent": "2025-05-11"
+      "races": "2025-05-11"
     },
     "circuit": "Laguna Seca",
     "logo": "imsa"
@@ -44,7 +44,7 @@
     "officialName": "Detroit Grand Prix",
     "location": "Detroit, Michigan",
     "dates": {
-      "mainEvent": "2025-05-31"
+      "races": "2025-05-31"
     },
     "circuit": "Detroit Street Circuit",
     "logo": "imsa"
@@ -54,7 +54,7 @@
     "officialName": "Sahlen's Six Hours of Glen",
     "location": "Watkins Glen, New York",
     "dates": {
-      "mainEvent": "2025-06-22"
+      "races": "2025-06-22"
     },
     "circuit": "Watkins Glen International",
     "logo": "imsa"
@@ -64,7 +64,7 @@
     "officialName": "Chevrolet Grand Prix",
     "location": "Ontario, Canada",
     "dates": {
-      "mainEvent": "2025-07-13"
+      "races": "2025-07-13"
     },
     "circuit": "Canadian Tire Motorsport Park",
     "logo": "imsa"
@@ -74,7 +74,7 @@
     "officialName": "IMSA Sportscar Weekend",
     "location": "Elkhart Lake, Wisconsin",
     "dates": {
-      "mainEvent": "2025-08-03"
+      "races": "2025-08-03"
     },
     "circuit": "Road America",
     "logo": "imsa"
@@ -84,7 +84,7 @@
     "officialName": "Michelin GT Chalenge at VIR",
     "location": "Alton, Virginia",
     "dates": {
-      "mainEvent": "2025-08-24"
+      "races": "2025-08-24"
     },
     "circuit": "VIRginia International Raceway",
     "logo": "imsa"
@@ -94,7 +94,7 @@
     "officialName": "Tirerack.com Battle of the Bricks",
     "location": "Indianapolis, Indiana",
     "dates": {
-      "mainEvent": "2025-09-21"
+      "races": "2025-09-21"
     },
     "circuit": "Indianapolis Motor Speedway",
     "logo": "imsa"
@@ -104,7 +104,7 @@
     "officialName": "Motul Petit Le Mans",
     "location": "Braselton, Georgia",
     "dates": {
-      "mainEvent": "2025-10-11"
+      "races": "2025-10-11"
     },
     "circuit": "Michelin Raceway Road Atlanta",
     "logo": "imsa"
