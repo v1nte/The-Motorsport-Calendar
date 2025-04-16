@@ -1,109 +1,142 @@
 [
   {
+    "id": "imsa-2025-1",
     "commonName": "Daytona 24h",
     "officialName": "Rolex 24 at Daytona",
     "location": "Daytona, Florida",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-01-25"]
     },
     "circuit": "Daytona International Speedway",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-2",
     "commonName": "Sebring 12h",
     "officialName": "Mobile 1 Twelve hours of Sebring",
     "location": "Sebring, Florida",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-03-25"]
     },
     "circuit": "Sebring International Raceway",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-3",
     "commonName": "Long Beach",
     "officialName": "Acura Grand Prix of Long Beach",
     "location": "Long Beach, California",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-04-12"]
     },
     "circuit": "Long Beach Street Circuit",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-4",
     "commonName": "Laguna Seca",
     "officialName": "IMSA WeatherTech Sportscar Championship of Monterey",
     "location": "Monteret, California",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-05-11"]
     },
     "circuit": "Laguna Seca",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-5",
     "commonName": "Detroit GP",
     "officialName": "Detroit Grand Prix",
     "location": "Detroit, Michigan",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-05-31"]
     },
     "circuit": "Detroit Street Circuit",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-6",
     "commonName": "Watkins Glen 6h",
     "officialName": "Sahlen's Six Hours of Glen",
     "location": "Watkins Glen, New York",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-22"]
     },
     "circuit": "Watkins Glen International",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-7",
     "commonName": "Chevrolet GP",
     "officialName": "Chevrolet Grand Prix",
     "location": "Ontario, Canada",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-13"]
     },
     "circuit": "Canadian Tire Motorsport Park",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-8",
     "commonName": "Road America",
     "officialName": "IMSA Sportscar Weekend",
     "location": "Elkhart Lake, Wisconsin",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-08-03"]
     },
     "circuit": "Road America",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-9",
     "commonName": "Virginia",
     "officialName": "Michelin GT Chalenge at VIR",
     "location": "Alton, Virginia",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-08-24"]
     },
     "circuit": "VIRginia International Raceway",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-10",
     "commonName": "Indy 6h",
     "officialName": "Tirerack.com Battle of the Bricks",
     "location": "Indianapolis, Indiana",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-09-21"]
     },
     "circuit": "Indianapolis Motor Speedway",
     "logo": "imsa"
   },
   {
+    "id": "imsa-2025-11",
     "commonName": "Petit Le Mans",
     "officialName": "Motul Petit Le Mans",
     "location": "Braselton, Georgia",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-10-11"]
     },
     "circuit": "Michelin Raceway Road Atlanta",

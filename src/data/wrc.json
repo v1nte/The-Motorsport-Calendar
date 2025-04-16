@@ -1,139 +1,181 @@
 [
   {
+    "id": "wrc-2025-1",
     "commonName": "Monte-Carlo",
     "officialName": "Rallye Monte-Carlo",
     "location": "Montecarlo, Monaco",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-01-26"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-2",
     "commonName": "Sweden",
     "officialName": "WRC Rally Sweden",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-02-16"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-3",
     "commonName": "Kenya",
     "officialName": "WRC Safari Rally Kenya",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-03-25"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-4",
     "commonName": "Islas Canarias",
     "officialName": "WRC Rally Islas Canarias",
     "location": "Canary Islands, Spain",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-04-27"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-5",
     "commonName": "Portugal",
     "officialName": "WRC Vodafone Rally de Portugal",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-05-18"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-6",
     "commonName": "Italia",
     "officialName": "WRC Rally Italia Sardegna",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-08"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-7",
     "commonName": "Greece",
     "officialName": "WRC EKO Acropolis Rally Greece",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-29"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-8",
     "commonName": "Estonia",
     "officialName": "WRC Delfi Rally Estonia",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-20"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-9",
     "commonName": "Findland",
     "officialName": "WRC Secto Rally Findland",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-08-03"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-10",
     "commonName": "Paraguay",
     "officialName": "WRC Rally del Paraguay",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-08-31"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-11",
     "commonName": "Chile",
     "officialName": "WRC Rally Chile Biobio",
     "location": "Bio-bio, Chile",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-09-14"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-12",
     "commonName": "Europa",
     "officialName": "WRC Central European Rally",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-10-19"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-13",
     "commonName": "Japan",
     "officialName": "WRC FORUM8 Rally Japan",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-11-09"]
     },
     "circuit": "",
     "logo": "wrc"
   },
   {
+    "id": "wrc-2025-14",
     "commonName": "Saudi Arabia",
     "officialName": "WRC Rally Saudi Arabia",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-11-30"]
     },
     "circuit": "",

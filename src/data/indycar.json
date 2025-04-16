@@ -1,169 +1,220 @@
 [
   {
+    "id": "indycar-2025-1",
     "commonName": "St. Petersburg",
     "officialName": "Firestone Grand Prix of St. Petersburg",
     "location": "St. Petersburg, Florida",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-03-02"]
     },
     "circuit": "Streets of St. Petersburg",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-2",
     "commonName": "Thermal",
     "officialName": "The Thermal Club Indycar Grand Prix",
     "location": "Thermal, California",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-03-23"]
     },
     "circuit": "The Thermal Club",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-3",
     "commonName": "Long Beach GP",
     "officialName": "Acura Grand Prix of Long Beach",
     "location": "Long Beach, California",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-04-13"]
     },
     "circuit": "Thermal, California",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-4",
     "commonName": "Alabama GP",
     "officialName": "Children's Of Alabama Indy Grand Prix",
     "location": "Birmingham, Alabama",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-05-04"]
     },
     "circuit": "Barber Motorsports Park",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-5",
     "commonName": "Sonsio GP",
     "officialName": "Sonsio Grand Prix",
     "location": "Indianapolis, Indiana",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-05-10"]
     },
     "circuit": "IMS Road Course",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-6",
     "commonName": "Indy 500",
     "officialName": "109th Running of the Indianapolis 500",
     "location": "Indianapolis, Indiana",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-05-25"]
     },
     "circuit": "Indianapolis Motor Speedway",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-7",
     "commonName": "Detroit GP",
     "officialName": "Chevrolet Detroit Grand Prix",
     "location": "Detroit, Michigan",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-01"]
     },
     "circuit": "Streets of Detroit",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-8",
     "commonName": "BAG 500",
     "officialName": "Bommarito Automotive Group 500",
     "location": "Madison, Illinois",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-15"]
     },
     "circuit": "World Wide Technology Raceway",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-9",
     "commonName": "Road America GP",
     "officialName": "Xpel Grand Prix at Road America",
     "location": "Elkhart Lake, Wisconsin",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-22"]
     },
     "circuit": "Road America",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-10",
     "commonName": "Indy 200",
     "officialName": "Honda Indy 200 at Mid-Ohio",
     "location": "Lexington, Ohio",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-06"]
     },
     "circuit": "Mid-Ohio Sports Car Course",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-11",
     "commonName": "Race Weekend 1",
     "officialName": "Indycar Race Weekend Race 1",
     "location": "Newton, Iowa",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-12"]
     },
     "circuit": "Iowa Speedway",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-12",
     "commonName": "Race Weekend 2",
     "officialName": "Indycar Race Weekend Race 2",
     "location": "Newton, Iowa",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-13"]
     },
     "circuit": "Iowa Speedway",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-13",
     "commonName": "Indy Toronto",
     "officialName": "Ontario Honda Dealers Indy Toronto",
     "location": "Toronto, Ontario",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-20"]
     },
     "circuit": "Streets of Toronto",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-14",
     "commonName": "Indy Monterrey",
     "officialName": "Indycar Grand Prix of Monterey",
     "location": "Monterey, California",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-27"]
     },
     "circuit": "Laguna Seca",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-15",
     "commonName": "Indy Portland",
     "officialName": "Bitnile.com Grand Prix of Portland",
     "location": "Portland, Oregon",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-08-10"]
     },
     "circuit": "Portland International Raceway",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-16",
     "commonName": "Mile 250",
     "officialName": "Snap-on Milwaukee Mile 250",
     "location": "West Allis, Wisconsin",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-08-24"]
     },
     "circuit": "Milwaukee Mile",
     "logo": "indycar"
   },
   {
+    "id": "indycar-2025-17",
     "commonName": "Indy Nashville",
     "officialName": "Big Machine Music City Grand Prix",
     "location": "Lebanon, Tennessee",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-08-31"]
     },
     "circuit": "Nashville Superspeedway",

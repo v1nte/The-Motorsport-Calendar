@@ -1,219 +1,285 @@
 [
   {
+    "id": "motogp-2025-1",
     "commonName": "Thailand",
     "officialName": "MotoGP Thailand",
     "location": "Thailand",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-03-03"]
     },
     "circuit": "Chang International Circuit",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-2",
     "commonName": "Argentina",
     "officialName": "MotoGP Argentina",
     "location": "Argentina",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-03-16"]
     },
     "circuit": "Termas de Río Hondo",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-3",
     "commonName": "USA",
     "officialName": "MotoGP USA",
     "location": "Texas, USA",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-03-30"]
     },
     "circuit": "Circuit of the Americas",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-4",
     "commonName": "Qatar",
     "officialName": "MotoGP Qatar",
     "location": "Lusail, Qatar",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-04-13"]
     },
     "circuit": "Lusail international circuit",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-5",
     "commonName": "Spain",
     "officialName": "MotoGP Spain",
     "location": "Jerez, Spain",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-04-27"]
     },
     "circuit": "Circuito de Jerez - Ángel Nieto",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-6",
     "commonName": "France",
     "officialName": "MotoGP France",
     "location": "Le Mans, France",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-05-11"]
     },
     "circuit": "Circuit de la Sarthe",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-7",
     "commonName": "United Kingdom",
     "officialName": "MotoGP UK",
     "location": "Silverstone, UK",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-05-25"]
     },
     "circuit": "Silverstone Circuit",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-8",
     "commonName": "Aragon",
     "officialName": "MotoGP Aragon",
     "location": "Alcañiz, Spain",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-08"]
     },
     "circuit": "MotorLand Aragon",
     "logo": "imsa"
   },
   {
+    "id": "motogp-2025-9",
     "commonName": "Mugello",
     "officialName": "MotoGP Italy",
     "location": "Mugello, Italy",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-22"]
     },
     "circuit": "Circuito internazionale del Mugello",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-10",
     "commonName": "Netherlands",
     "officialName": "MotoGP Netherlands",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-29"]
     },
     "circuit": "TT Circuit Assen",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-11",
     "commonName": "Germany",
     "officialName": "MotoGP Germany",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-13"]
     },
     "circuit": "Sachsenring",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-12",
     "commonName": "Czechia",
     "officialName": "MotoGP Czechia",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-20"]
     },
     "circuit": "Automodrom BRNO",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-13",
     "commonName": "Austria",
     "officialName": "MotoGP Austria",
     "location": "Spielberg, Austria",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-08-17"]
     },
     "circuit": "Redbull Ring",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-14",
     "commonName": "Hungary",
     "officialName": "MotoGP Hungary",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-08-24"]
     },
     "circuit": "Balaton Park Circuit",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-15",
     "commonName": "Catalonia",
     "officialName": "MotoGP Catalonia",
     "location": "Barcelona, Spain",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-09-07"]
     },
     "circuit": "Circuit de Barcelona-Catalunya",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-16",
     "commonName": "San Marino",
     "officialName": "MotoGP San Marino",
     "location": "San Marino",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-09-14"]
     },
     "circuit": "Misano World Circuit Marco Simonelli",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-17",
     "commonName": "Japan",
     "officialName": "MotoGP Japan",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-09-28"]
     },
     "circuit": "Mobility Resort Motegi",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-18",
     "commonName": "Indonesia",
     "officialName": "MotoGP Indonesia",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-10-05"]
     },
     "circuit": "Pertamina Mandalika International Circuit",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-19",
     "commonName": "Australia",
     "officialName": "MotoGP Australia",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-10-19"]
     },
     "circuit": "Philip Island",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-20",
     "commonName": "Malaysia",
     "officialName": "MotoGP Malaysia",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-10-26"]
     },
     "circuit": "Sepan International Circuit",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-21",
     "commonName": "Portugal",
     "officialName": "MotoGP Portugal",
     "location": "",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-11-09"]
     },
     "circuit": "Autódromo internacional do Algarve",
     "logo": "motogp"
   },
   {
+    "id": "motogp-2025-22",
     "commonName": "Valencia",
     "officialName": "MotoGP Valencia",
     "location": "Valencia, Spain",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-11-16"]
     },
     "circuit": "Circuit Ricardo Tormo",

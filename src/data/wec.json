@@ -1,19 +1,25 @@
 [
   {
+    "id": "wec-2025-1",
     "commonName": "Qatar",
     "officialName": "Qatar 1812Km",
     "location": "Doha, Qatar",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-02-28"]
     },
     "circuit": "Lusail International Circuit",
     "logo": "wec"
   },
   {
+    "id": "wec-2025-2",
     "commonName": "Italy",
     "officialName": "6 Hours of Imola",
     "location": "Imola, Italy",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-04-20"],
       "duration": 6
     },
@@ -21,60 +27,78 @@
     "logo": "wec"
   },
   {
+    "id": "wec-2025-3",
     "commonName": "Belgium",
     "officialName": "TOTALENERGIES 6 Hours of Spa-Franchorchamps",
     "location": "Lieja, Belgium",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-05-10"]
     },
     "circuit": "Circuit de Spa-Franchorchamps",
     "logo": "wec"
   },
   {
+    "id": "wec-2025-4",
     "commonName": "24 Hours of Le Mans",
     "officialName": "24 Hours of Le Mans",
     "location": "Le Mans, France",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-06-14"]
     },
     "circuit": "Circuit de la Sarthe",
     "logo": "lemans"
   },
   {
+    "id": "wec-2025-5",
     "commonName": "Brazil",
     "officialName": "Rolex 6 Hours of Sao Paulo",
     "location": "Sao Paulo, Brazil",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-07-13"]
     },
     "circuit": "Autódromo José Carlos Pache",
     "logo": "wec"
   },
   {
+    "id": "wec-2025-6",
     "commonName": "USA",
     "officialName": "Lone Star Le Mans",
     "location": "Austin, USA",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-09-07"]
     },
     "circuit": "Circuit of the Americas",
     "logo": "wec"
   },
   {
+    "id": "wec-2025-7",
     "commonName": "Japan",
     "officialName": "6 Hours of Fuji",
     "location": "Shizouka, Japan",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-09-28"]
     },
     "circuit": "Fuji Speedway",
     "logo": "wec"
   },
   {
+    "id": "wec-2025-8",
     "commonName": "Bahrain",
     "officialName": "Bapco Energies 8 Hours of Bahrain",
     "location": "Bahrain",
     "dates": {
+      "practices": [],
+      "qualys": [],
       "races": ["2025-11-08"]
     },
     "circuit": "Bahrain International Circuit",
