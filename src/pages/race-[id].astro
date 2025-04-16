@@ -1,22 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import f1Events from "../data/formula1.json";
+import { getSortedEvents } from "../utils/events";
 import { Image } from "astro:assets";
-
-const f1Logo = `/The-Motorsport-Calendar/logos/f1.webp`;
 
 const { id } = Astro.params;
 
 export function getStaticPaths() {
-  const paths = f1Events.map((item) => ({
+  const events = getSortedEvents();
+  const paths = events.map((item) => ({
     params: { id: item.id },
   }));
 
   return paths;
 }
 
-const eventData: RaceEvent = f1Events.find((el) => el.id === id)!;
+const events = getSortedEvents();
+const eventData: RaceEvent = events.find((el) => el.id === id)!;
 const rawDates: EventDates = eventData.dates;
+
+const { logo } = eventData;
+const logoPath = `/The-Motorsport-Calendar/logos/${logo}.webp`;
 
 const dates = {
   practices: rawDates.practices.map((dateStr) => new Date(dateStr)),
