@@ -7,7 +7,7 @@
     "dates": {
       "practices": ["2025-03-14", "2025-03-14", "2025-03-15"],
       "qualys": ["2025-03-15"],
-      "races": "2025-03-16"
+      "races": ["2025-03-16"]
     },
     "circuit": "Albert Park Circuit",
     "logo": "f1"
@@ -33,7 +33,7 @@
     "dates": {
       "practices": ["2025-04-04", "2025-04-04", "2025-04-05"],
       "qualys": ["2025-04-05"],
-      "races": "2025-04-06"
+      "races": ["2025-04-06"]
     },
     "circuit": "Suzuka Circuit",
     "logo": "f1"
@@ -59,7 +59,7 @@
     "dates": {
       "practices": ["2025-04-18", "2025-04-18", "2025-04-10"],
       "qualys": ["2025-04-19"],
-      "races": "2025-04-20"
+      "races": ["2025-04-20"]
     },
     "circuit": "Jeddah Corniche Circuit",
     "logo": "f1"
@@ -85,7 +85,7 @@
     "dates": {
       "practices": ["2025-05-16", "2025-05-16", "2025-05-17"],
       "qualys": ["2025-05-17"],
-      "races": "2025-05-18"
+      "races": ["2025-05-18"]
     },
     "circuit": "Autodromo Internazionale Enzo e Dino Ferrari",
     "logo": "f1"
@@ -98,7 +98,7 @@
     "dates": {
       "practices": ["2025-05-23", "2025-05-23", "2025-05-24"],
       "qualys": ["2025-05-24"],
-      "races": "2025-05-25"
+      "races": ["2025-05-25"]
     },
     "circuit": "Circuit de Monaco",
     "logo": "f1"
@@ -111,7 +111,7 @@
     "dates": {
       "practices": ["2025-05-30", "2025-05-30", "2025-05-31"],
       "qualys": ["2025-05-31"],
-      "races": "2025-06-01"
+      "races": ["2025-06-01"]
     },
     "circuit": "Circuit de Barcelona-Catalunya",
     "logo": "f1"
@@ -124,7 +124,7 @@
     "dates": {
       "practices": ["2025-06-13", "2025-06-13", "2025-06-14"],
       "qualys": ["2025-06-14"],
-      "races": "2025-06-15"
+      "races": ["2025-06-15"]
     },
     "circuit": "Circuit Guilles-Villeneuve",
     "logo": "f1"
@@ -137,7 +137,7 @@
     "dates": {
       "practices": ["2025-06-27", "2025-06-27", "2025-06-28"],
       "qualys": ["2025-06-28"],
-      "races": "2025-06-29"
+      "races": ["2025-06-29"]
     },
     "circuit": "Redbull Ring",
     "logo": "f1"
@@ -150,7 +150,7 @@
     "dates": {
       "practices": ["2025-07-04", "2025-07-04", "2025-07-05"],
       "qualys": ["2025-07-05"],
-      "races": "2025-07-06"
+      "races": ["2025-07-06"]
     },
     "circuit": "Silverstone Circuit",
     "logo": "f1"
@@ -176,7 +176,7 @@
     "dates": {
       "practices": ["2025-08-01", "2025-08-01", "2025-08-02"],
       "qualys": ["2025-08-02"],
-      "races": "2025-08-03"
+      "races": ["2025-08-03"]
     },
     "circuit": "Hungaroring",
     "logo": "f1"
@@ -189,7 +189,7 @@
     "dates": {
       "practices": ["2025-08-29", "2025-08-29", "2025-08-30"],
       "qualys": ["2025-08-30"],
-      "races": "2025-08-31"
+      "races": ["2025-08-31"]
     },
     "circuit": "Circuit Zandvoort",
     "logo": "f1"
@@ -202,7 +202,7 @@
     "dates": {
       "practices": ["2025-09-05", "2025-09-05", "2025-09-06"],
       "qualys": ["2025-09-06"],
-      "races": "2025-09-07"
+      "races": ["2025-09-07"]
     },
     "circuit": "Autodromo Nazionale Monza",
     "logo": "f1"
@@ -215,7 +215,7 @@
     "dates": {
       "practices": ["2025-09-19", "2025-09-19", "2025-09-20"],
       "qualys": ["2025-09-20"],
-      "races": "2025-09-21"
+      "races": ["2025-09-21"]
     },
     "circuit": "Baku City Circuit",
     "logo": "f1"
@@ -228,7 +228,7 @@
     "dates": {
       "practices": ["2025-10-03", "2025-10-03", "2025-10-04"],
       "qualys": ["2025-10-04"],
-      "races": "2025-10-05"
+      "races": ["2025-10-05"]
     },
     "circuit": "Marina Bay Street Circuit",
     "logo": "f1"
@@ -254,7 +254,7 @@
     "dates": {
       "practices": ["2025-10-24", "2025-10-24", "2025-10-25"],
       "qualys": ["2025-10-25"],
-      "races": "2025-10-26"
+      "races": ["2025-10-26"]
     },
     "circuit": "Autódromo Hermanos Rodríguez",
     "logo": "f1"
@@ -280,7 +280,7 @@
     "dates": {
       "practices": ["2025-11-20", "2025-11-20", "2025-11-21"],
       "qualys": ["2025-10-21"],
-      "races": "2025-11-22"
+      "races": ["2025-11-22"]
     },
     "circuit": "Las Vegas Strip Circuit",
     "logo": "f1"
@@ -306,7 +306,7 @@
     "dates": {
       "practices": ["2025-12-05", "2025-12-05", "2025-12-06"],
       "qualys": ["2025-12-06"],
-      "races": "2025-12-07"
+      "races": ["2025-12-07"]
     },
     "circuit": "Yas Marina Circuit",
     "logo": "f1"
