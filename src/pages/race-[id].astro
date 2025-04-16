@@ -21,10 +21,10 @@ const rawDates = eventData.dates;
 const dates = {
   practices: rawDates?.practices.map((dateStr) => new Date(dateStr)),
   qualys: rawDates?.qualys.map((dateStr) => new Date(dateStr)),
-  races: rawDates.mainEvent
-    ? Array.isArray(rawDates.mainEvent)
-      ? rawDates.mainEvent.map((dateStr) => new Date(dateStr))
-      : [new Date(rawDates.mainEvent)]
+  races: rawDates.races
+    ? Array.isArray(rawDates.races)
+      ? rawDates.races.map((dateStr) => new Date(dateStr))
+      : [new Date(rawDates.races)]
     : [],
 };
 
