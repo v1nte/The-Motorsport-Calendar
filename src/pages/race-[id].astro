@@ -36,13 +36,15 @@ const options: Intl.DateTimeFormatOptions = {
 
 <Layout transition:name={id}>
   <main class="grid place-items-center gap-2">
-    <Image
-      src={f1Logo}
-      alt={`F1 Logo`}
-      width={350}
-      height={1}
-      inferSize={true}
-    />
+    <div class="pt-6 pb-16">
+      <Image
+        src={logoPath}
+        alt={`F1 Logo`}
+        width={350}
+        height={1}
+        inferSize={true}
+      />
+    </div>
     <h1 class="text-3xl font-bold">{eventData?.commonName}</h1>
 
     <div class="flex">
